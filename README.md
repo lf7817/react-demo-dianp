@@ -8,9 +8,15 @@ yarn start
 yarn mock
 ```
 
+# 弹出
+不知道怎样配置create-react-app，还是eject修改配置吧
+```
+yarn eject
+```
+
 # 编译后资源引用路径修改
 ```
-// node_modules/react-scripts/config/path.js
+// config/path.js
 
 function getServedPath(appPackageJson) {
   const publicUrl = getPublicUrl(appPackageJson);
@@ -41,9 +47,8 @@ yarn add postcss-adaptive --dev
 ```
 ### 配置postcss
 
-不知道怎样配置create-react-app，这里先修改源码
 ```
-// node_modules\react-scripts\config\webpack.config.dev.js
+// config\webpack.config.dev.js 和 config\webpack.config.prod.js
 + const adaptive = require('postcss-adaptive')
 
 plugins: () => [
