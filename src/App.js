@@ -1,12 +1,13 @@
 import React from 'react'
-import App from './router'
+import RouterMap from './router'
 import { Provider } from 'react-redux'
 import storeConfig from './store'
 
 const store = storeConfig()
 
-export default () => (
+const App = () => (
   <Provider store={store}>
-    <App />
+    <RouterMap />
   </Provider>
 )
+export default App

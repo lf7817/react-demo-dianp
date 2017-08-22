@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "amfe-flexible": "^2.2.1",
     "axios": "^0.16.2",
     "isomorphic-fetch": "^2.2.1",
     "react": "^15.6.1",
@@ -18,13 +19,14 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "mock": "node ./mock/server.js",
-    "dev": "concurrently \" npm run start \",\" npm run mock \""
+    "mock": "node ./mock/server.js"
   },
   "devDependencies": {
     "concurrently": "^3.5.0",
     "koa": "^2.3.0",
-    "koa-router": "^7.2.1"
+    "koa-router": "^7.2.1",
+    "postcss-adaptive": "^0.4.0",
+    "postcss-pxtorem": "^4.0.1"
   },
   "proxy": {
     "/api": {
