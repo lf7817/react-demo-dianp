@@ -5,6 +5,8 @@ import PureRenderMixin from 'react-addons-pure-render-mixin'
 import HomeHeader from '../../components/HomeHeader'
 import Category from '../../components/Category'
 import Ad from '../../components/HomeAd'
+import Likes from '../../components/Likes'
+
 import * as actions from '../../actions/userinfo'
 
 class Home extends Component {
@@ -15,6 +17,7 @@ class Home extends Component {
 
   componentDidMount () {
     this.props.getHomeAd()
+    this.props.getLikes(this.props.userInfo.cityName, 1)
   }
 
   render() {
@@ -27,6 +30,11 @@ class Home extends Component {
             <Ad list={this.props.userInfo.adList}/> :
             <div>加载中...</div>
         }
+        {
+          this.props.userInfo.likes ?
+            <Likes {...this.props.userInfo.likes} /> :
+            <div>加载中...</div>
+        }
       </div>
     )
   }
@@ -37,7 +45,8 @@ const mapStateToProps = (state) => ({
 })
 
 const mapDispatchToProps = (dispatch) => ({
-  getHomeAd: () => dispatch(actions.getHomeAd())
+  getHomeAd: () => dispatch(actions.getHomeAd()),
+  getLikes: (cityName, page) => dispatch(actions.getLikes(cityName, page))
 })
 
 export default connect(

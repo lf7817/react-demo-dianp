@@ -18,7 +18,7 @@ class RouterMap extends Component {
     super(props)
     this.shouldComponentUpdate = PureRenderMixin.shouldComponentUpdate.bind(this)
     this.state = {
-      initDone: true
+      initDone: false
     }
   }
 
@@ -28,6 +28,9 @@ class RouterMap extends Component {
       cityName = '北京'
     }
     this.props.userInfoActions.setCity(cityName)
+    this.setState({
+      initDone: true
+    })
   }
 
   render () {

@@ -26,3 +26,27 @@ export const getHomeAd = () => {
     }
   }
 }
+
+const requestLikes = (cityName, page) => ({
+  type: actionTyps.REQUEST_LIKES,
+  cityName,
+  page
+})
+
+const receiveLikes = (cityName, data) => ({
+  type: actionTyps.RECEVIE_LIKES,
+  cityName,
+  data
+})
+
+export const getLikes = (cityName, page) => {
+  return async dispatch => {
+    dispatch(requestLikes(cityName, page))
+    try {
+     const res = await axios(`/api/homelist/${cityName}/${page}`)
+     dispatch(receiveLikes(cityName, res.data))
+    } catch (e) {
+
+    }
+  }
+}
