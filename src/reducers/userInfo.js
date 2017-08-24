@@ -1,13 +1,24 @@
 import * as actionTypes from '../constants/userInfo'
 
-const initialState = {}
-const userInfo = (state = initialState, action) => {
+const userInfo = (state = {}, action) => {
   switch (action.type) {
-    case actionTypes.USERINFO_UPDATE:
-      return action.data
+    case actionTypes.USER_SET_CITY:
+      return {
+        ...state,
+        cityName: action.cityName
+      }
+    case actionTypes.REQUEST_AD:
+      return state
+    case actionTypes.RECEIVE_AD:
+      return {
+        ...state,
+        adList: action.list
+      }
     default:
       return state
   }
 }
+
+
 
 export default userInfo

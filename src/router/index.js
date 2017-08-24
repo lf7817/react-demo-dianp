@@ -27,9 +27,7 @@ class RouterMap extends Component {
     if (cityName == null) {
       cityName = '北京'
     }
-    this.props.userInfoActions.update({
-      cityName
-    })
+    this.props.userInfoActions.setCity(cityName)
   }
 
   render () {

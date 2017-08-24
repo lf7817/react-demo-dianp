@@ -4,9 +4,9 @@ const Koa = require('koa'),
 const app = new Koa(),
   router = new Router;
 
-
-router.get('/api/1',(ctx, next) => {
-  ctx.body = 'hello'
+const homeAdData = require('./home/ad')
+router.get('/api/homead',(ctx, next) => {
+  ctx.body = homeAdData
 })
 
 // 开始服务并生成路由

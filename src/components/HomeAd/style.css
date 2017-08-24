@@ -1,0 +1,27 @@
+.home-advertisement {
+    background-color: #fff;
+}
+.home-advertisement p {
+    padding: 26px 30px;
+    font-size: 32px;
+    font-weight: bold;
+    color: #363233;
+}
+
+.home-advertisement ul {
+    display: flex;
+    flex-flow: row wrap;
+    list-style: none;
+}
+.home-advertisement ul li {
+    box-sizing: border-box;
+    width: 250px;
+    height:260px;
+    border: 1px solid #eee;
+}
+.home-advertisement ul li img {
+    width: 100%;
+    height: 100%;
+    border: none;
+    box-shadow: none;
+}
