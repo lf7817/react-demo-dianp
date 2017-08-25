@@ -1,0 +1,12 @@
+.likes-title {
+    height: 72px;
+    line-height: 72px;
+    color: #666666;
+    font-size: 30px;
+    text-indent: 26px;
+}
+
+.likes-list {
+    list-style: none;
+    background-color: #ffffff;
+}

@@ -1,0 +1,70 @@
+.likes-list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 26px;
+    width: 698px;
+    height: 230px;
+    border-bottom: 1px solid #eee;
+}
+
+.likes-list-item img {
+    width: 230px;
+    height: 180px;
+    border: 0;
+}
+
+.item-content {
+    width: 438px;
+    height: 180px;
+}
+
+.item-content-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.item-content-top .name {
+    color: #353132;
+    font-size: 30px;
+}
+
+.item-content-top .distance {
+    color: #afafaf;
+    font-size: 24px;
+}
+
+.item-content-middle {
+    height: 80px;
+    line-height: 40px;
+}
+
+.item-content-middle span {
+    color: #686868;
+    font-size: 24px;
+}
+
+.item-content-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 50px;
+}
+
+.item-content-bottom .price strong {
+    color: #fb354e;
+    margin-right: 16px;
+    font-size: 32px;
+}
+
+.item-content-bottom .price em {
+    font-size: 20px;
+    text-decoration: line-through;
+}
+
+.item-content-bottom .number {
+    color: #afafaf;
+    font-size: 24px;
+}

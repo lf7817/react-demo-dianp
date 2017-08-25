@@ -31,7 +31,7 @@ class Home extends Component {
             <div>加载中...</div>
         }
         {
-          this.props.userInfo.likes ?
+          this.props.userInfo.likes.data.length > 0 ?
             <Likes {...this.props.userInfo.likes} /> :
             <div>加载中...</div>
         }
