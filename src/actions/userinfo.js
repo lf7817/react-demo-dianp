@@ -1,9 +1,9 @@
 import * as actionTyps from '../constants/userInfo'
 import axios from 'axios'
 
-let host = ''
+let host = 'https://lf7817.github.io/react-demo-dianp/public'
 if (process.env.NODE_ENV === 'development') {
-  host = 'https://lf7817.github.io/react-demo-dianp/public'
+  host = ''
 }
 
 export const setCity = (cityName) => ({
