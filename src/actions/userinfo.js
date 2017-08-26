@@ -1,7 +1,10 @@
 import * as actionTyps from '../constants/userInfo'
 import axios from 'axios'
 
-const host = 'https://github.com/lf7817/react-demo-dianp/tree/master/public/assets'
+let host = ''
+if (process.env.NODE_ENV === 'development') {
+  host = 'https://lf7817.github.io/react-demo-dianp/public'
+}
 
 export const setCity = (cityName) => ({
   type: actionTyps.USER_SET_CITY,
@@ -22,7 +25,7 @@ export const getHomeAd = () => {
     dispatch(requstAD())
     try {
       // const res = await axios('/api/homead')
-      const res = await axios(`${host}/json/ad.json`)
+      const res = await axios(`${host}/assets/json/ad.json`)
       dispatch(receiveAD(res.data))
     } catch (e) {
 
@@ -47,7 +50,7 @@ export const getLikes = (cityName, page) => {
     dispatch(requestLikes(cityName, page))
     try {
      // const res = await axios(`/api/homelist/${cityName}/${page}`)
-     const res = await axios(`${host}/json/likes.json`)
+     const res = await axios(`${host}/assets/json/likes.json`)
      dispatch(receiveLikes(cityName, res.data))
     } catch (e) {
 
