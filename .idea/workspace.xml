@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb7138c2-a9eb-4217-a194-38d4e44dc298" name="默认的" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/Likes/LikeItem/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/json/ad.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/json/likes.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mock/home/ad.js" afterPath="$PROJECT_DIR$/mock/home/ad.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mock/home/list.js" afterPath="$PROJECT_DIR$/mock/home/list.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/HomeAd/style.css" afterPath="$PROJECT_DIR$/src/components/HomeAd/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Likes/LikeItem/index.js" afterPath="$PROJECT_DIR$/src/components/Likes/LikeItem/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Likes/index.js" afterPath="$PROJECT_DIR$/src/components/Likes/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Likes/style.css" afterPath="$PROJECT_DIR$/src/components/Likes/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/Home/index.js" afterPath="$PROJECT_DIR$/src/containers/Home/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/reducers/home/getLikes.js" afterPath="$PROJECT_DIR$/src/reducers/home/getLikes.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/actions/userinfo.js" afterPath="$PROJECT_DIR$/src/actions/userinfo.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,18 +22,40 @@
       <file leaf-file-name="ad.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mock/home/ad.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="3" column="25" lean-forward="false" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+            <state relative-caret-position="270">
+              <caret line="10" column="4" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="31" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="list.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="list.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mock/home/list.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="4" column="27" lean-forward="false" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+            <state relative-caret-position="1242">
+              <caret line="46" column="1" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="46" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="userinfo.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/actions/userinfo.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="227">
+              <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+              <folding>
+                <element signature="e#0#51#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="47" lean-forward="false" selection-start-line="0" selection-start-column="46" selection-end-line="0" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -110,7 +126,6 @@
         <option value="$PROJECT_DIR$/src/reducers/home/getAd.js" />
         <option value="$PROJECT_DIR$/src/reducers/home/index.js" />
         <option value="$PROJECT_DIR$/src/reducers/home/getLikes.js" />
-        <option value="$PROJECT_DIR$/src/actions/userinfo.js" />
         <option value="$PROJECT_DIR$/src/components/Likes/index.js" />
         <option value="$PROJECT_DIR$/src/components/Likes/style.css" />
         <option value="$PROJECT_DIR$/src/components/HomeAd/style.css" />
@@ -119,6 +134,9 @@
         <option value="$PROJECT_DIR$/src/containers/Home/index.js" />
         <option value="$PROJECT_DIR$/mock/home/ad.js" />
         <option value="$PROJECT_DIR$/mock/home/list.js" />
+        <option value="$PROJECT_DIR$/public/assets/json/likes.json" />
+        <option value="$PROJECT_DIR$/public/assets/json/ad.json" />
+        <option value="$PROJECT_DIR$/src/actions/userinfo.js" />
       </list>
     </option>
   </component>
@@ -155,7 +173,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -167,13 +184,7 @@
             <path>
               <item name="react-demo-dianp" type="b2602c69:ProjectViewProjectNode" />
               <item name="react-demo-dianp" type="462c0819:PsiDirectoryNode" />
-              <item name="mock" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-demo-dianp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-demo-dianp" type="462c0819:PsiDirectoryNode" />
-              <item name="mock" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="react-demo-dianp" type="b2602c69:ProjectViewProjectNode" />
@@ -185,18 +196,12 @@
               <item name="react-demo-dianp" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-demo-dianp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-demo-dianp" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -209,15 +214,19 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/lf/Desktop/workspaces/dianping/react-demo-dianp/src/containers/Home/index.js" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\lf\Desktop\workspaces\dianping\react-demo-dianp\public\assets\images" />
-      <recent name="C:\Users\lf\Desktop\workspaces\dp\public\assets" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lf\Desktop\workspaces\dianping\react-demo-dianp\src\assets" />
       <recent name="C:\Users\lf\Desktop\workspaces\dianping\react-demo-dianp\mock\images" />
       <recent name="C:\Users\lf\Desktop\workspaces\dp\public" />
       <recent name="C:\Users\lf\Desktop\workspaces\dp\public\fonts" />
       <recent name="C:\Users\lf\Desktop\workspaces\dp\public\font" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lf\Desktop\workspaces\dianping\react-demo-dianp\public\assets" />
+      <recent name="C:\Users\lf\Desktop\workspaces\dianping\react-demo-dianp\build\assets" />
+      <recent name="C:\Users\lf\Desktop\workspaces\dianping\react-demo-dianp\src" />
+      <recent name="C:\Users\lf\Desktop\workspaces\dianping\react-demo-dianp\public\assets\images" />
+      <recent name="C:\Users\lf\Desktop\workspaces\dp\public\assets" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -277,9 +286,9 @@
     </list>
     <recent_temporary>
       <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="npm.mock" />
+        <item index="0" class="java.lang.String" itemvalue="npm.build" />
         <item index="1" class="java.lang.String" itemvalue="npm.start" />
-        <item index="2" class="java.lang.String" itemvalue="npm.build" />
+        <item index="2" class="java.lang.String" itemvalue="npm.mock" />
         <item index="3" class="java.lang.String" itemvalue="npm.dev" />
       </list>
     </recent_temporary>
@@ -324,7 +333,9 @@
       <workItem from="1503657187091" duration="5383000" />
       <workItem from="1503665707224" duration="1413000" />
       <workItem from="1503667161563" duration="440000" />
-      <workItem from="1503667702177" duration="251000" />
+      <workItem from="1503667702177" duration="497000" />
+      <workItem from="1503724065850" duration="235000" />
+      <workItem from="1503724429954" duration="1902000" />
     </task>
     <task id="LOCAL-00001" summary="eject">
       <created>1503394625523</created>
@@ -354,11 +365,18 @@
       <option name="project" value="LOCAL" />
       <updated>1503581590517</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="添加猜你喜欢组件，异步action,另外从新整理了图片路径，原来从cdn加载图片，总是出现403错误，现在发在本地目录">
+      <created>1503668125540</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1503668125540</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119487000" />
+    <option name="totallyTimeSpent" value="121870000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -373,15 +391,15 @@
     <frame x="-9" y="-9" width="1938" height="1098" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20560254" sideWeight="0.35023043" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18181819" sideWeight="0.3446215" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3195021" sideWeight="0.5046419" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20560254" sideWeight="0.6497696" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18181819" sideWeight="0.65537846" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31905782" sideWeight="0.49535808" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30299786" sideWeight="0.49788582" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46252677" sideWeight="0.49788582" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -427,20 +445,14 @@
     <MESSAGE value="添加轮播组件" />
     <MESSAGE value=" 添加超值特惠组件，使用异步action、ES7的async/await" />
     <MESSAGE value="分离了userIfo reducer" />
-    <option name="LAST_COMMIT_MESSAGE" value="分离了userIfo reducer" />
+    <MESSAGE value="添加猜你喜欢组件，异步action,另外从新整理了图片路径，原来从cdn加载图片，总是出现403错误，现在发在本地目录" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加猜你喜欢组件，异步action,另外从新整理了图片路径，原来从cdn加载图片，总是出现403错误，现在发在本地目录" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/containers/Home.js" />
-    <entry file="file://E:/BaiduYunDownload/react/s124lq/react-dianping-stage2-city-page/UE/首页01.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/fonts/font.css" />
     <entry file="file://$PROJECT_DIR$/node_modules/react-scripts/config/paths.js" />
     <entry file="file://$PROJECT_DIR$/node_modules/react-scripts/config/webpack.config.prod.js" />
     <entry file="file://$PROJECT_DIR$/postcss.config.js" />
@@ -474,7 +486,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/index.html" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -651,13 +662,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/actions/userinfo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="45" column="64" lean-forward="true" selection-start-line="45" selection-start-column="64" selection-end-line="45" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/HomeAd/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
@@ -707,19 +711,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mock/home/ad.js">
+    <entry file="file://$PROJECT_DIR$/mock/home/list.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="25" lean-forward="false" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+        <state relative-caret-position="1242">
+          <caret line="46" column="1" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="46" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mock/home/list.js">
+    <entry file="file://$PROJECT_DIR$/mock/home/ad.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="27" lean-forward="false" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+        <state relative-caret-position="270">
+          <caret line="10" column="4" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="31" selection-end-column="1" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/json/ad.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/json/likes.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1242">
+          <caret line="46" column="1" lean-forward="false" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/json/ad.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="47" lean-forward="false" selection-start-line="0" selection-start-column="46" selection-end-line="0" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/userinfo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
