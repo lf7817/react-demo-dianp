@@ -1,7 +1,8 @@
 import * as actionTyps from '../constants/userInfo'
 import axios from 'axios'
+import { HOST } from '../constants/host'
 
-let host = 'https://lf7817.github.io/react-demo-dianp/public'
+let host = HOST
 if (process.env.NODE_ENV === 'development') {
   host = ''
 }

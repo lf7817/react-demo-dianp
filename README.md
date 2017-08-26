@@ -1,6 +1,15 @@
 # 预览
 请将浏览器调成手机模式[点击预览](https://lf7817.github.io/react-demo-dianp/build/)
 
+# 技术栈
+
+- react
+- react-router V4.0
+- redux 
+- ES6/7
+- axios/fetch
+- flexible+flex
+
 # 安装
 ```
 # 安装

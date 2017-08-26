@@ -6,6 +6,7 @@ import HomeHeader from '../../components/HomeHeader'
 import Category from '../../components/Category'
 import Ad from '../../components/HomeAd'
 import Likes from '../../components/Likes'
+import LoadMore from '../../components/LoadMore'
 
 import * as actions from '../../actions/userinfo'
 
@@ -13,28 +14,36 @@ class Home extends Component {
   constructor(props) {
     super(props)
     this.shouldComponentUpdate = PureRenderMixin.shouldComponentUpdate.bind(this)
+    this.loadMoreLikes = this.loadMoreLikes.bind(this)
   }
 
   componentDidMount () {
     this.props.getHomeAd()
-    this.props.getLikes(this.props.userInfo.cityName, 1)
+    this.props.getLikes(this.props.userInfo.cityName, 0)
+  }
+
+  loadMoreLikes () {
+    this.props.getLikes(this.props.userInfo.cityName, this.props.userInfo.likes.page)
   }
 
   render() {
+    const userInfo = this.props.userInfo
+    const likes = userInfo.likes
     return (
       <div>
-        <HomeHeader cityName={this.props.userInfo.cityName} />
+        <HomeHeader cityName={userInfo.cityName} />
         <Category />
         {
-          this.props.userInfo.adList ?
-            <Ad list={this.props.userInfo.adList}/> :
+          userInfo.adList ?
+            <Ad list={userInfo.adList}/> :
             <div>加载中...</div>
         }
         {
-          this.props.userInfo.likes.data.length > 0 ?
-            <Likes {...this.props.userInfo.likes} /> :
+          userInfo.likes.data.length > 0 ?
+            <Likes {...userInfo.likes} /> :
             <div>加载中...</div>
         }
+        <LoadMore isLoading={likes.isLoading} hasMore={likes.hasMore} loadMoreHandle={this.loadMoreLikes} />
       </div>
     )
   }
