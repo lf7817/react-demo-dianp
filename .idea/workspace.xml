@@ -2,31 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb7138c2-a9eb-4217-a194-38d4e44dc298" name="默认的" comment="图片、json该为从github上读">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/LoadMore/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/LoadMore/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/constants/host.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/utils/throttle.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/assets/images/ad/138012-20161016191639092-2000037796.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/assets/images/ad/138012-20161016191648124-298129318.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/assets/images/ad/138012-20161016191653983-1962772127.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/assets/images/ad/138012-20161016191700420-1584459466.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/assets/images/ad/138012-20161016191706733-367929553.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/assets/images/ad/138012-20161016191713186-495002222.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/assets/images/likes/138012-20161016201638030-473660627.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/assets/images/likes/138012-20161016201645858-1342445625.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/assets/images/likes/138012-20161016201652952-1050532278.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/assets/images/likes/138012-20161016201700186-1351787273.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/assets/images/likes/138012-20161016201708124-1116595594.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/asset-manifest.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/assets/flexible.debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/assets/images/138012-20161016191639092-2000037796.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/assets/images/138012-20161016191648124-298129318.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/assets/images/138012-20161016191653983-1962772127.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/assets/images/138012-20161016191700420-1584459466.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/assets/images/138012-20161016191706733-367929553.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/assets/images/138012-20161016191713186-495002222.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/assets/images/138012-20161016201638030-473660627.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/assets/images/138012-20161016201645858-1342445625.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/assets/images/138012-20161016201652952-1050532278.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/assets/images/138012-20161016201700186-1351787273.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/assets/images/138012-20161016201708124-1116595594.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/assets/json/ad.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/assets/json/likes.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/manifest.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/service-worker.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/static/css/main.d3fa112c.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/static/css/main.d3fa112c.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/static/js/main.35f30f3f.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/static/js/main.35f30f3f.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/static/media/icomoon.29e88ebc.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/static/media/icomoon.9d535acb.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/static/media/icomoon.9f969fc4.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/static/media/icomoon.e21b1be5.eot" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/asset-manifest.json" afterPath="$PROJECT_DIR$/build/asset-manifest.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/assets/json/ad.json" afterPath="$PROJECT_DIR$/build/assets/json/ad.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/assets/json/likes.json" afterPath="$PROJECT_DIR$/build/assets/json/likes.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/index.html" afterPath="$PROJECT_DIR$/build/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/service-worker.js" afterPath="$PROJECT_DIR$/build/service-worker.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/actions/userinfo.js" afterPath="$PROJECT_DIR$/src/actions/userinfo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/Home/index.js" afterPath="$PROJECT_DIR$/src/containers/Home/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/reducers/home/getLikes.js" afterPath="$PROJECT_DIR$/src/reducers/home/getLikes.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -40,7 +43,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/LoadMore/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="999">
@@ -48,16 +51,6 @@
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/build/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="66" lean-forward="true" selection-start-line="0" selection-start-column="66" selection-end-line="0" selection-end-column="66" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -185,29 +178,6 @@
             <path>
               <item name="react-demo-dianp" type="b2602c69:ProjectViewProjectNode" />
               <item name="react-demo-dianp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-demo-dianp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-demo-dianp" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-demo-dianp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-demo-dianp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-demo-dianp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-demo-dianp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="reducers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-demo-dianp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-demo-dianp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="reducers" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -350,7 +320,7 @@
       <workItem from="1503667702177" duration="497000" />
       <workItem from="1503724065850" duration="235000" />
       <workItem from="1503724429954" duration="15157000" />
-      <workItem from="1503740732010" duration="97000" />
+      <workItem from="1503740732010" duration="324000" />
     </task>
     <task id="LOCAL-00001" summary="eject">
       <created>1503394625523</created>
@@ -443,11 +413,18 @@
       <option name="project" value="LOCAL" />
       <updated>1503730234991</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="添加加载更多组件">
+      <created>1503740846526</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1503740846526</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="135222000" />
+    <option name="totallyTimeSpent" value="135449000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -460,9 +437,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1098" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18181819" sideWeight="0.34063745" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18181819" sideWeight="0.34063745" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3195021" sideWeight="0.5046419" order="7" side_tool="true" content_ui="tabs" />
@@ -521,7 +497,8 @@
     <MESSAGE value="为了能在GitHub展示页面，请求地址改为public/assets/json目录" />
     <MESSAGE value="test" />
     <MESSAGE value="图片、json该为从github上读" />
-    <option name="LAST_COMMIT_MESSAGE" value="图片、json该为从github上读" />
+    <MESSAGE value="添加加载更多组件" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加加载更多组件" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -762,6 +739,7 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="189">
             <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -805,7 +783,7 @@
         <state relative-caret-position="1242">
           <caret line="48" column="13" lean-forward="false" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
           <folding>
-            <element signature="e#0#51#0" expanded="true" />
+            <element signature="e#0#51#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -830,7 +808,7 @@
         <state relative-caret-position="918">
           <caret line="44" column="9" lean-forward="false" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
           <folding>
-            <element signature="e#0#40#0" expanded="true" />
+            <element signature="e#0#40#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -864,7 +842,7 @@
     <entry file="file://$PROJECT_DIR$/build/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="66" lean-forward="true" selection-start-line="0" selection-start-column="66" selection-end-line="0" selection-end-column="66" />
+          <caret line="0" column="10" lean-forward="true" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
           <folding />
         </state>
       </provider>
