@@ -1,9 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eb7138c2-a9eb-4217-a194-38d4e44dc298" name="默认的" comment="为了能在GitHub展示页面，请求地址改为public/assets/json目录">
+    <list default="true" id="eb7138c2-a9eb-4217-a194-38d4e44dc298" name="默认的" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/asset-manifest.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/assets/flexible.debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/assets/images/138012-20161016191639092-2000037796.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/assets/images/138012-20161016191648124-298129318.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/assets/images/138012-20161016191653983-1962772127.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/assets/images/138012-20161016191700420-1584459466.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/assets/images/138012-20161016191706733-367929553.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/assets/images/138012-20161016191713186-495002222.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/assets/images/138012-20161016201638030-473660627.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/assets/images/138012-20161016201645858-1342445625.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/assets/images/138012-20161016201652952-1050532278.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/assets/images/138012-20161016201700186-1351787273.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/assets/images/138012-20161016201708124-1116595594.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/manifest.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/service-worker.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/static/css/main.d3fa112c.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/static/css/main.d3fa112c.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/static/js/main.aee57ac9.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/static/js/main.aee57ac9.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/static/media/icomoon.29e88ebc.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/static/media/icomoon.9d535acb.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/static/media/icomoon.9f969fc4.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/static/media/icomoon.e21b1be5.eot" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -49,7 +73,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
@@ -59,32 +83,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="26" lean-forward="true" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="135">
-                <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+                <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -212,24 +216,6 @@
             <path>
               <item name="react-demo-dianp" type="b2602c69:ProjectViewProjectNode" />
               <item name="react-demo-dianp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-demo-dianp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-demo-dianp" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-demo-dianp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-demo-dianp" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-demo-dianp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-demo-dianp" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -369,7 +355,7 @@
       <workItem from="1503667161563" duration="440000" />
       <workItem from="1503667702177" duration="497000" />
       <workItem from="1503724065850" duration="235000" />
-      <workItem from="1503724429954" duration="2401000" />
+      <workItem from="1503724429954" duration="2745000" />
     </task>
     <task id="LOCAL-00001" summary="eject">
       <created>1503394625523</created>
@@ -420,11 +406,18 @@
       <option name="project" value="LOCAL" />
       <updated>1503726661941</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="为了能在GitHub展示页面，请求地址改为public/assets/json目录">
+      <created>1503726873534</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1503726873534</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122369000" />
+    <option name="totallyTimeSpent" value="122713000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -437,9 +430,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1098" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18181819" sideWeight="0.3446215" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18181819" sideWeight="0.3446215" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3195021" sideWeight="0.5046419" order="7" side_tool="true" content_ui="tabs" />
@@ -489,6 +481,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="eject" />
     <MESSAGE value="添加轮播组件" />
     <MESSAGE value=" 添加超值特惠组件，使用异步action、ES7的async/await" />
@@ -791,26 +784,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="70" column="15" lean-forward="false" selection-start-line="70" selection-start-column="15" selection-end-line="70" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="26" lean-forward="true" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
+          <caret line="0" column="72" lean-forward="false" selection-start-line="0" selection-start-column="71" selection-end-line="0" selection-end-column="72" />
           <folding />
         </state>
       </provider>
@@ -819,10 +796,26 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="135">
-            <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+            <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="70" column="15" lean-forward="false" selection-start-line="70" selection-start-column="15" selection-end-line="70" selection-end-column="15" />
+          <folding />
         </state>
       </provider>
     </entry>
