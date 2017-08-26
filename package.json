@@ -65,7 +65,7 @@
     "postcss-adaptive": "^0.4.0",
     "postcss-pxtorem": "^4.0.1"
   },
-  "proxy": {
+  "proxy111": {
     "/api": {
       "target": "http://localhost:4000",
       "secure": false
