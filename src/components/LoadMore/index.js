@@ -18,7 +18,6 @@ class LoadMore extends Component {
 
   scrollHandle () {
     return throttle(() => {
-      console.log(this)
       if (this.props.isLoading) {
         return
       }
@@ -45,7 +44,7 @@ class LoadMore extends Component {
   isLoadMoreFn () {
     const top = this.state.wrapper.getBoundingClientRect().top
     const windowHeight = window.screen.height
-    if (top && (top / this.state.dpr) <  windowHeight) {
+    if (top && (top / this.state.dpr) <  windowHeight + 6) {
       this.loadMoreFnc()
     }
   }

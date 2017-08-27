@@ -1,0 +1,44 @@
+.city-header {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    background-color: #fff; /*rgb(233, 32, 61);*/
+    /*color: orange;*/
+}
+.city-header span {
+    position: relative;
+    top: 4px;
+    margin-left: 46px;
+    font-size: 40px;
+    color: rgb(255, 102, 51);
+}
+.city-header div {
+    margin-left: 160px;
+    color: #fff;
+}
+
+.city-header div button {
+    border: none;
+    background-color: #fff;
+    border: 1px solid rgb(255, 102, 51);
+    width: 160px;
+    height: 60px;
+    font-size: 30px;
+    color: rgb(255, 102, 51);
+}
+
+.city-header div button:focus {
+    outline: none;
+}
+
+.city-header div button.active {
+    background-color: rgb(255, 102, 51);
+    color: #fff;
+}
+
+.city-header div button:first-child {
+    border-radius: 12px 0 0 12px;
+}
+.city-header div button:last-child {
+    border-radius: 0 12px 12px 0;
+}

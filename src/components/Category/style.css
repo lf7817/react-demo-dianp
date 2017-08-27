@@ -52,99 +52,95 @@
     background-color: rgb(233, 32, 61);
 }
 
-.item-tourist {
-    background-image: url(../../images/category/tourist.png);
-}
-.item-ktv {
-    background-image: url(../../images/category/02KTVicon_2.png);
-}
-.item-buy {
-    background-image: url(../../images/category/02购物icon_3.png);
-}
-.item-buy {
-    background-image: url(../../images/category/02购物icon_3.png);
-}
 .item-life-service {
-    background-image: url(../../images/category/02生活服务icon_4.png);
+    background-image: url(../../images/category/20170308125500community_new.png);
+}
+.item-tourist {
+    background-image: url(../../images/category/20160126205135jingguan.png);
+}
+.item-aiche {
+    background-image: url(../../images/category/20160126203742aiche.png);
 }
 .item-sport {
-    background-image: url(../../images/category/02运动健身icon_5.png);
+    background-image: url(../../images/category/20160126203617jianshen.png);
 }
-.item-hair {
-    background-image: url(../../images/category/02美发icon_6.png);
+.item-buy {
+    background-image: url(../../images/category/20160314121215icongouwu135.png);
 }
 .item-children {
-    background-image: url(../../images/category/02亲子icon_7.png);
+    background-image: url(../../images/category/20160126203905qinzi.png);
 }
-.item-eat {
-    background-image: url(../../images/category/02小吃快餐icon_8.png);
+.item-furniture {
+    background-image: url(../../images/category/20161213162031zhuangxiu.png);
 }
-.item-buffet {
-    background-image: url(../../images/category/02自助餐icon_9.png);
+.item-study {
+    background-image: url(../../images/category/1455525720807.png);
 }
-.item-bar {
-    background-image: url(../../images/category/02酒吧icon_10.png);
+.item-health {
+    background-image: url(../../images/category/20160126204327yiliao.png    );
+}
+.item-home {
+    background-image: url(../../images/category/20160126203812daojia.png);
 }
 
 .item-food {
-    background-image: url(../../images/category/01美食icon_1.png);
+    background-image: url(../../images/category/20160126194705meishi.png);
 }
 .item-movie {
-    background-image: url(../../images/category/01电影icon_2.png);
+    background-image: url(../../images/category/20170223152109dp_wx_maoyan_icon.png);
 }
 .item-hotel {
-    background-image: url(../../images/category/01酒店icon_3.png);
+    background-image: url(../../images/category/20160126203337jiudian.png);
 }
 .item-entertainment {
-    background-image: url(../../images/category/01休闲娱乐icon_4.png);
+    background-image: url(../../images/category/20160126202841xiuxianyule.png);
 }
 .item-take-out-food {
-    background-image: url(../../images/category/01外卖icon_5.png);
+    background-image: url(../../images/category/20160126203251waimai.png);
 }
 .item-hot-pot {
-    background-image: url(../../images/category/01火锅icon_6.png);
+    background-image: url(../../images/category/20160204172927huoguo.png);
 }
 .item-beauty {
-    background-image: url(../../images/category/01丽人icon_7.png);
-}
-.item-vacation {
-    background-image: url(../../images/category/01度假出行icon_8.png);
-}
-.item-foot {
-    background-image: url(../../images/category/01足疗按摩icon_9.png);
+    background-image: url(../../images/category/20160126202946liren.png);
 }
 .item-around {
-    background-image: url(../../images/category/01周边游icon_10png.png);
+    background-image: url(../../images/category/20160126203440zhoubianyou.png);
+}
+.item-ktv {
+    background-image: url(../../images/category/20160126203542ktv.png);
+}
+.item-hunshasheying {
+    background-image: url(../../images/category/20160126203830jiehun.png);
 }
 
+.item-xiaochi {
+    background-image: url(../../images/category/20160204173331xiaochikuaican.png);
+}
+.item-zizhu {
+    background-image: url(../../images/category/20160204173511zizhucan.png);
+}
 .item-tokyo-food {
-    background-image: url(../../images/category/03日本菜icon_1.png);
+    background-image: url(../../images/category/20160415121719rihanliaoli.png);
+}
+.item-hair {
+    background-image: url(../../images/category/20160316142804meifa.png);
+}
+.item-meijiameitong {
+    background-image: url(../../images/category/20160316143047meijia.png);
 }
 .item-spa {
-    background-image: url(../../images/category/03SPAicon_2.png);
+    background-image: url(../../images/category/20160316143239meirong.png);
 }
-.item-wedding {
-    background-image: url(../../images/category/03结婚icon_3.png);
+.item-shoushen {
+    background-image: url(../../images/category/20160316143316shoushen.png);
 }
-.item-study {
-    background-image: url(../../images/category/03学习培训icon_4.png);
+.item-qinzisheying {
+    background-image: url(../../images/category/20160316143612qinzisheying.png);
 }
-.item-western-food {
-    background-image: url(../../images/category/03西餐icon_5.png);
-}
-
-.item-ticket {
-    background-image: url(../../images/category/03火车机票icon_6.png);
-}
-.item-bbq {
-    background-image: url(../../images/category/03烧烤icon_7.png);
-}
-.item-furniture {
-    background-image: url(../../images/category/03家装icon_8.png);
-}
-.item-pet {
-    background-image: url(../../images/category/03宠物icon_9.png);
+.item-qinziyoule {
+    background-image: url(../../images/category/20160316143656qinziyoule.png);
 }
 .item-all-category {
-    background-image: url(../../images/category/03全部分类icon_10.png);
+    background-image: url(../../images/category/20160125182200more.png);
 }

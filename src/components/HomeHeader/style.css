@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     height: 100px;
-    background-color: rgb(233, 32, 61);
+    background-color: rgb(255, 102, 51);
     color: #fff;
     font-size: 32px;
 }
@@ -14,7 +14,7 @@
 
 .home-header-left .city-name {
     font-size: 32px;
-    color: #d3eee9;
+    color: #fff
 }
 
 .home-header-center {

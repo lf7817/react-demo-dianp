@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import PureRenderMixin from 'react-addons-pure-render-mixin'
 
-import Header from '../../components/Header'
+import CityHeader from '../../components/CityHeader'
 
 class City extends Component {
   constructor (props) {
@@ -13,7 +13,7 @@ class City extends Component {
   render () {
     return (
       <div>
-        <Header />
+        <CityHeader />
       </div>
     )
   }
