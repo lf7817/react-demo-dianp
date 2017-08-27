@@ -20,6 +20,8 @@ yarn start
 yarn mock
 ```
 
+
+
 # 弹出
 不知道怎样配置create-react-app，还是eject修改配置吧
 ```
@@ -78,3 +80,12 @@ plugins: () => [
   ],
 ```
 默认设计稿为750，默认dpr为2，自动转换rem ，具体查看[API](https://www.npmjs.com/package/postcss-adaptive)
+
+
+
+# changes
++ 2017-08-27
+    - 修复loadMore组件bug，销毁组件时，注销scroll事件写错了，导致重复注册scroll事件
+    - 修复Likes组件bug,从其它页面切回Home组件时，会去加载第一页列表，导致store中状态改变，重复加载列表，这里修改加载条件，当列表为空才去加载
+    - 每次进入Home组件，Ad组件都会重新请求列表，同上修改加载条件，列表为空采取加载
+    

@@ -9,29 +9,43 @@ class LoadMore extends Component {
     this.shouldComponentUpdate = PureRenderMixin.shouldComponentUpdate.bind(this)
     this.loadMoreFnc = this.loadMoreFnc.bind(this)
     this.isLoadMoreFn = this.isLoadMoreFn.bind(this)
+    this.scrollHandle = this.scrollHandle.bind(this)
+    this.state = {
+      dpr: window.dpr,
+      wrapper: null
+    }
   }
 
-  componentDidMount () {
-    const handle = throttle(() => {
-      console.log(2)
+  scrollHandle () {
+    return throttle(() => {
+      console.log(this)
       if (this.props.isLoading) {
         return
       }
       if (!this.props.hasMore) {
-        window.removeEventListener('scroll', handle)
+        window.removeEventListener('scroll', this.handle)
         return
       }
       this.isLoadMoreFn()
     })
-    window.addEventListener('scroll', handle)
+  }
+
+  componentDidMount () {
+    this.setState({
+      wrapper: this.refs.wrapper
+    })
+    this.handle = this.scrollHandle()
+    window.addEventListener('scroll', this.handle)
+  }
+
+  componentWillUnmount () {
+    window.removeEventListener('scroll', this.handle)
   }
 
   isLoadMoreFn () {
-    const dpr = window.dpr // 从flexible.js读的
-    const wrapper = this.refs.wrapper
-    const top = wrapper.getBoundingClientRect().top
+    const top = this.state.wrapper.getBoundingClientRect().top
     const windowHeight = window.screen.height
-    if (top && (top / dpr) <  windowHeight) {
+    if (top && (top / this.state.dpr) <  windowHeight) {
       this.loadMoreFnc()
     }
   }

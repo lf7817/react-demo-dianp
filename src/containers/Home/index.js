@@ -18,8 +18,13 @@ class Home extends Component {
   }
 
   componentDidMount () {
-    this.props.getHomeAd()
-    this.props.getLikes(this.props.userInfo.cityName, 0)
+    if (this.props.userInfo.adList.length === 0) { // 防止从其他页面切换来，重新调用
+      this.props.getHomeAd()
+    }
+
+    if (this.props.userInfo.likes.data.length === 0) { // 防止从其他页面切换来，重新调用
+      this.props.getLikes(this.props.userInfo.cityName, 0)
+    }
   }
 
   loadMoreLikes () {
@@ -43,7 +48,12 @@ class Home extends Component {
             <Likes {...userInfo.likes} /> :
             <div>加载中...</div>
         }
-        <LoadMore isLoading={likes.isLoading} hasMore={likes.hasMore} loadMoreHandle={this.loadMoreLikes} />
+        {
+          this.props.userInfo.likes.data.length !== 0 ?
+            <LoadMore isLoading={likes.isLoading} hasMore={likes.hasMore} loadMoreHandle={this.loadMoreLikes} /> :
+            null
+        }
+
       </div>
     )
   }

@@ -2,7 +2,7 @@ import * as actionTypes from '../../constants/userInfo'
 
 const getLikes = (state = {
   isLoading: false,
-  hasMore: false,
+  hasMore: true,
   data: [],
   page: 0
 }, action) => {
@@ -17,7 +17,7 @@ const getLikes = (state = {
       return {
         isLoading: false,
         page: state.page + 1,
-        hasMore: state.page >= 2 ? false : action.data.hasMore,
+        hasMore: state.page >= 3 ? false : action.data.hasMore,
         data: [...state.data, ...action.data.data]
       }
     default:

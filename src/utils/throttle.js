@@ -1,5 +1,5 @@
 const throttle = function (fn, interval) {
-  let timer, firstTime = true
+  let timer, firstTime = false
   return function () {
     let _self = this, args = arguments
     if (firstTime) {

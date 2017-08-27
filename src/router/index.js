@@ -12,6 +12,7 @@ import { CITYNAME } from '../config/localStoreKey'
 import * as userInfoActionFromOtherFile from '../actions/userinfo'
 
 import Home from '../containers/Home'
+import City from '../containers/City'
 
 class RouterMap extends Component {
   constructor (props) {
@@ -37,6 +38,7 @@ class RouterMap extends Component {
     const routes = (
       <Switch>
         <Route path="/" exact component={Home} />
+        <Route path="/city" exact component={City} />
       </Switch>
     )
     
