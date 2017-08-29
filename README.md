@@ -1,6 +1,13 @@
 # 预览
 请将浏览器调成手机模式[点击预览](https://lf7817.github.io/react-demo-dianp/build/)
 
+或
+
+扫描二维码
+
+![](./public/assets/images/qcorde.jpg)
+
+
 # 技术栈
 
 - react
