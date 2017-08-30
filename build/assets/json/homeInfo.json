@@ -1,0 +1,586 @@
+{
+  "code": 200,
+  "msg": "success",
+  "data": {
+    "moduleInfoList": [
+      {
+        "moduleName": "headline",
+        "config": {
+          "themeStyle": "headline_browser"
+        },
+        "lat": "31.948764899999997",
+        "lng": "118.8901466",
+        "moduleData": {
+          "code": 200,
+          "msg": "success",
+          "data": {
+            "list": [
+              {
+                "type": "0",
+                "picCount": "5",
+                "title": "关于加拿大龙虾您也许不知道的小知识",
+                "url": "https://h5.dianping.com/app/h5-ranklist-static/list_nearby.html?headlineId=1472778&source=weixinM",
+                "pic": "https://p1.meituan.net/gpa/fda1e363ccdbd1660fe70f8002c84b18595131.png%40100w_100h_1e_1c_1l%7Cwatermark%3D1%26%26r%3D1%26p%3D9%26x%3D20%26y%3D20",
+                "poi": "",
+                "shopName": "",
+                "userPic": []
+              },
+              {
+                "type": "0",
+                "picCount": "13",
+                "title": "知识库 | 教你判断金枪鱼的品质（图解！）",
+                "url": "https://h5.dianping.com/app/h5-ranklist-static/list_nearby.html?headlineId=1469298&source=weixinM",
+                "pic": "https://p0.meituan.net/gpa/76bf58d4fb260ffe975df036d5dfd10d71453.jpg%40100w_100h_1e_1c_1l%7Cwatermark%3D1%26%26r%3D1%26p%3D9%26x%3D20%26y%3D20",
+                "poi": "",
+                "shopName": "",
+                "userPic": []
+              },
+              {
+                "type": "0",
+                "picCount": "28",
+                "title": "商家绝对不会教你的挑海鲜小窍门，从此放心吃海鲜！",
+                "url": "https://h5.dianping.com/app/h5-ranklist-static/list_nearby.html?headlineId=1469290&source=weixinM",
+                "pic": "https://p0.meituan.net/gpa/d13c1267fcbaba3f38e6d44765c7d8f548241.jpg%40100w_100h_1e_1c_1l%7Cwatermark%3D1%26%26r%3D1%26p%3D9%26x%3D20%26y%3D20",
+                "poi": "",
+                "shopName": "",
+                "userPic": []
+              },
+              {
+                "type": "0",
+                "picCount": "42",
+                "title": "我们暴走35℃的南京街头吃了10碗凉皮，最好吃的竟然是……",
+                "url": "https://h5.dianping.com/app/h5-ranklist-static/list_nearby.html?headlineId=600726&source=weixinM",
+                "pic": "https://p0.meituan.net/poicontent/b02403420893a6b05bdf6581fad9ed70289846.jpg%40100w_100h_1e_1c_1l%7Cwatermark%3D1%26%26r%3D1%26p%3D9%26x%3D20%26y%3D20",
+                "poi": "",
+                "shopName": "",
+                "userPic": []
+              },
+              {
+                "type": "0",
+                "picCount": "16",
+                "title": "老司机返场：这6家「性冷淡」酒店，看看居然都能高潮！",
+                "url": "https://h5.dianping.com/app/h5-ranklist-static/list_nearby.html?headlineId=1080077&source=weixinM",
+                "pic": "https://p1.meituan.net/gpa/b4e585f6f6cc5fa6db3789f1357f20de185298.jpg%40100w_100h_1e_1c_1l%7Cwatermark%3D1%26%26r%3D1%26p%3D9%26x%3D20%26y%3D20",
+                "poi": "",
+                "shopName": "",
+                "userPic": []
+              }
+            ]
+          }
+        }
+      },
+      {
+        "moduleName": "rb",
+        "version": "0",
+        "config": {
+          "hasAd": "true",
+          "adId": "20160310031829-c118226a-1",
+          "themeStyle": "rb_browser"
+        },
+        "lat": "31.948764899999997",
+        "lng": "118.8901466",
+        "moduleData": {
+          "code": 200,
+          "msg": "success",
+          "data": {
+            "list": [
+              {
+                "adTitle": "外卖招牌菜",
+                "adSubTitle": "大家都爱吃",
+                "link": "https://tpl.dianping.com/firework/20160727wmzpc?activity_id=5014&waimai_ctype=DPm&source=27",
+                "thumb": "https://lf7817.github.io/react-demo-dianp/public/assets/images/a4c9af447b28aaf1cc7cd7d7464f5a94.png"
+              },
+              {
+                "adTitle": "热映大片特惠",
+                "adSubTitle": "9.9元起",
+                "link": "http://tpl.dianping.com/firework/qi1504001659",
+                "thumb": "https://lf7817.github.io/react-demo-dianp/public/assets/images/983d9eac45ccf943c23d06b2a873918.png"
+              }
+            ],
+            "hasAd": false
+          }
+        }
+      },
+      {
+        "moduleName": "xyhzq",
+        "version": "0",
+        "config": {},
+        "moduleData": {
+          "code": 200,
+          "msg": "success",
+          "data": {
+            "list": [
+              {
+                "adTitle": "拼手气赢豪礼",
+                "adSubTitle": "大奖免费抽取",
+                "link": "https://h5.dianping.com/app/ziggurat/662/index.html",
+                "thumb": "https://lf7817.github.io/react-demo-dianp/public/assets/images/72d664b99eb72ae209c0c8ca452b610.png"
+              },
+              {
+                "adTitle": "百分百赢红包",
+                "adSubTitle": "刷脸免费领取",
+                "link": "https://h5.dianping.com/app/ziggurat/861/index.html?activity_tlt=861&utm_source=mzone",
+                "thumb": "https://lf7817.github.io/react-demo-dianp/public/assets/images/8fcc1265cace1884b828fc31b055e7b7.png"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "moduleName": "czth",
+        "version": "0",
+        "config": {
+          "apiEdition": "old",
+          "hasAd": "true",
+          "themeStyle": "czth_browser"
+        },
+        "lat": "31.948764899999997",
+        "lng": "118.8901466",
+        "moduleData": {
+          "code": 200,
+          "msg": "success",
+          "data": {
+            "hasAd": false,
+            "preferenceValueHuiVos": [
+              {
+                "dgId": "8370548",
+                "imageUrl": "https://lf7817.github.io/react-demo-dianp/public/assets/images/76dfccfe0c0ea00d2b900b897834d273130698.jpg",
+                "markPrice": "128.0",
+                "featureTitle": "仅售1元，价值128元单人专业痘肌清洁单次体验，节假日通用，男女通用！",
+                "shortTitle": "苗方玉颜坊",
+                "price": "1.0",
+                "tag": ""
+              },
+              {
+                "dgId": "22147915",
+                "imageUrl": "https://lf7817.github.io/react-demo-dianp/public/assets/images/e91d9994030da527e29ef3c05857a89580192.jpg",
+                "markPrice": "38.0",
+                "featureTitle": "仅售1元，价值38元单人美发抢购人气洗吹套餐，节假日通用，男女通用！",
+                "shortTitle": "欧莱雅造型",
+                "price": "1.0",
+                "tag": ""
+              },
+              {
+                "dgId": "19220102",
+                "imageUrl": "https://lf7817.github.io/react-demo-dianp/public/assets/images/c1131734bf961efa4a32d0a027beda5878513.jpg",
+                "markPrice": "50.0",
+                "featureTitle": "仅售1元，价值50元代金券，节假日通用！",
+                "shortTitle": "LiLy时尚美甲工作室",
+                "price": "1.0",
+                "tag": ""
+              }
+            ]
+          }
+        }
+      },
+      {
+        "moduleName": "ttlj",
+        "version": "0",
+        "config": {
+          "hasAd": "true"
+        },
+        "lat": "31.948764899999997",
+        "lng": "118.8901466",
+        "moduleData": {
+          "code": 200,
+          "msg": "success",
+          "data": {
+            "dayHuiVos": [
+              {
+                "dgId": "18223158",
+                "imageUrl": "https://lf7817.github.io/react-demo-dianp/public/assets/images/441725777301772.jpg",
+                "markPrice": "65.0",
+                "featureTitle": "仅售52元！最高价值65元的精品套餐，建议2人使用，提供免费WiFi。",
+                "shortTitle": "江南村",
+                "price": "52.0",
+                "tag": "立减5元"
+              },
+              {
+                "dgId": "18223519",
+                "imageUrl": "https://lf7817.github.io/react-demo-dianp/public/assets/images/7e7345a114258f0b4c11e7bbd481d528376512.jpg",
+                "markPrice": "133.0",
+                "featureTitle": "仅售118元！最高价值133元的精品套餐，建议3-4人使用，提供免费WiFi。",
+                "shortTitle": "江南村",
+                "price": "118.0",
+                "tag": "立减10元"
+              },
+              {
+                "dgId": "16451933",
+                "imageUrl": "https://lf7817.github.io/react-demo-dianp/public/assets/images/1c1728d57e37a7010cf8888cff3368ee61436.jpg",
+                "markPrice": "100.0",
+                "featureTitle": "仅售95元！价值100元的代金券1张，除酒水、饮料外全场通用，可叠加使用，提供免费WiFi。",
+                "shortTitle": "疯狂烤翅",
+                "price": "95.0",
+                "tag": "立减5元"
+              }
+            ],
+            "hasAd": false
+          }
+        }
+      },
+      {
+        "moduleName": "cnxh",
+        "version": "0",
+        "config": {
+          "bord": "true",
+          "hideWelfare": "false",
+          "showOverlay": "true",
+          "categoryType": "standard",
+          "mainwelfare_utm": "ulink_mainwelfare",
+          "mainwelfare_link_ios": "https://link.dianping.com/universal-link?originalUrl=http%3A%2F%2Fevt.dianping.com%2Fsynthesislink%2F10765.html&schema=dianping%3A%2F%2Fweb%3Furl%3Dhttps%253A%252F%252Fh5.dianping.com%252Fapp%252Fdaily-benefits%252Fstatic%252Findex.html%2523%252Findex%253Futm_source%253DMcnxh",
+          "mainwelfare_link_android": "http://evt.dianping.com/synthesislink/10765.html"
+        },
+        "query": {
+          "startNum": "1"
+        },
+        "lat": "31.948764899999997",
+        "lng": "118.8901466",
+        "moduleData": {
+          "code": 200,
+          "msg": "success",
+          "data": {
+            "startNum": 1,
+            "overSea": false,
+            "totalNum": 79,
+            "searchQueryId": "64defb30-fa8e-4d2e-b16a-3921254671ff",
+            "guessYouVoList": [
+              {
+                "shopName": "鲜芋仙",
+                "dealgroupid": "23146169",
+                "dealGroupTitle": "[义乌小商品城] 20元代金券1张，可叠加",
+                "dealgroupPrice": "17.9",
+                "marketPrice": "20",
+                "saleDesc": "",
+                "shopId": "",
+                "defaultPic": "https://p1.meituan.net/deal/aacdbd649d2e2d4aff01609a5484f37052250.jpg%40180w_180h_1e_1c_1l_80q%7Cwatermark%3D0",
+                "item_type": "standard",
+                "distance": "1.7km",
+                "tgcurrentjoin": "81",
+                "recreason": null,
+                "needpromocall": "true",
+                "tgrate": "0.0",
+                "pictag": {
+                  "tag": "免预约",
+                  "color": "#e5bf86"
+                },
+                "itemtag": {
+                  "tag": "",
+                  "color": "#FFF"
+                },
+                "promovalue": "",
+                "priceexplain": "",
+                "priceextrainfo": "",
+                "salesdesc": "已售81",
+                "biz_id": "0",
+                "item_type_self": "tuan",
+                "schema": "https://m.dianping.com/tuan/deal/23146169",
+                "discountList": []
+              },
+              {
+                "shopName": "AWON阿旺茶",
+                "dealgroupid": "17234213",
+                "dealGroupTitle": "[8店通用] 10元代金券1张，可叠加",
+                "dealgroupPrice": "7.9",
+                "marketPrice": "10",
+                "saleDesc": "",
+                "shopId": "",
+                "defaultPic": "https://p1.meituan.net/deal/cbf207021b889735bd6da4f5b04f2f0058774.jpg%40180w_180h_1e_1c_1l_80q%7Cwatermark%3D0",
+                "item_type": "standard",
+                "distance": "1.6km",
+                "tgcurrentjoin": "697",
+                "recreason": null,
+                "needpromocall": "true",
+                "tgrate": "1.0",
+                "pictag": {
+                  "tag": "免预约",
+                  "color": "#e5bf86"
+                },
+                "itemtag": {
+                  "tag": "",
+                  "color": "#FFF"
+                },
+                "promovalue": "",
+                "priceexplain": "",
+                "priceextrainfo": "",
+                "salesdesc": "已售697",
+                "biz_id": "0",
+                "item_type_self": "tuan",
+                "schema": "https://m.dianping.com/tuan/deal/17234213",
+                "discountList": []
+              },
+              {
+                "shopName": "南京市江宁区城市之光猫山王甜品店",
+                "dealgroupid": "26028949",
+                "dealGroupTitle": "[义乌小商品城] 超值抢购榴莲芝士1份",
+                "dealgroupPrice": "15.8",
+                "marketPrice": "25",
+                "saleDesc": "",
+                "shopId": "",
+                "defaultPic": "https://p0.meituan.net/deal/6b7da06e0c7d710113449557094258f533039.jpg%40180w_180h_1e_1c_1l_80q%7Cwatermark%3D0",
+                "item_type": "standard",
+                "distance": "1.6km",
+                "tgcurrentjoin": "29",
+                "recreason": null,
+                "needpromocall": "true",
+                "tgrate": "0.0",
+                "pictag": {
+                  "tag": "免预约",
+                  "color": "#e5bf86"
+                },
+                "itemtag": {
+                  "tag": "",
+                  "color": "#FFF"
+                },
+                "promovalue": "新客减3",
+                "priceexplain": "",
+                "priceextrainfo": "",
+                "salesdesc": "已售29",
+                "biz_id": "0",
+                "item_type_self": "tuan",
+                "schema": "https://m.dianping.com/tuan/deal/26028949",
+                "discountList": [],
+                "discountTag": "新客减3"
+              },
+              {
+                "shopName": "小筅笙古早味",
+                "dealgroupid": "24426121",
+                "dealGroupTitle": "招牌原味蛋糕1份",
+                "dealgroupPrice": "13.9",
+                "marketPrice": "16.8",
+                "saleDesc": "",
+                "shopId": "",
+                "defaultPic": "https://p0.meituan.net/deal/c93d004dcc2e88910d4d97a1e676ba0713720.jpg%40180w_180h_1e_1c_1l_80q%7Cwatermark%3D0",
+                "item_type": "standard",
+                "distance": "1.7km",
+                "tgcurrentjoin": "10",
+                "recreason": null,
+                "needpromocall": "true",
+                "tgrate": "0.0",
+                "pictag": {
+                  "tag": "免预约",
+                  "color": "#e5bf86"
+                },
+                "itemtag": {
+                  "tag": "",
+                  "color": "#FFF"
+                },
+                "promovalue": "",
+                "priceexplain": "",
+                "priceextrainfo": "",
+                "salesdesc": "已售10",
+                "biz_id": "0",
+                "item_type_self": "tuan",
+                "schema": "https://m.dianping.com/tuan/deal/24426121",
+                "discountList": []
+              },
+              {
+                "shopName": "界王玄铁烧",
+                "dealgroupid": "23018435",
+                "dealGroupTitle": "[义乌小商品城] 萨沙猪排饭1份，提供免费WiFi",
+                "dealgroupPrice": "19",
+                "marketPrice": "36",
+                "saleDesc": "",
+                "shopId": "",
+                "defaultPic": "https://p0.meituan.net/deal/7215f5ea655999f22350a94189a4c1862281819.jpg%40180w_180h_1e_1c_1l_80q%7Cwatermark%3D0",
+                "item_type": "standard",
+                "distance": "2km",
+                "tgcurrentjoin": "130",
+                "recreason": null,
+                "needpromocall": "true",
+                "tgrate": "0.0",
+                "pictag": {
+                  "tag": "免预约",
+                  "color": "#e5bf86"
+                },
+                "itemtag": {
+                  "tag": "",
+                  "color": "#FFF"
+                },
+                "promovalue": "",
+                "priceexplain": "",
+                "priceextrainfo": "",
+                "salesdesc": "已售130",
+                "biz_id": "0",
+                "item_type_self": "tuan",
+                "schema": "https://m.dianping.com/tuan/deal/23018435",
+                "discountList": []
+              },
+              {
+                "shopName": "馋猫食堂",
+                "dealgroupid": "23963176",
+                "dealGroupTitle": "[义乌小商品城] 套餐饭系列，建议单人使用",
+                "dealgroupPrice": "23.9",
+                "marketPrice": "42",
+                "saleDesc": "",
+                "shopId": "",
+                "defaultPic": "https://p1.meituan.net/deal/e92fa7b5f2c65a7b9933c2f12eecf9d350892.jpg%40180w_180h_1e_1c_1l_80q%7Cwatermark%3D0",
+                "item_type": "standard",
+                "distance": "2km",
+                "tgcurrentjoin": "171",
+                "recreason": null,
+                "needpromocall": "true",
+                "tgrate": "0.0",
+                "pictag": {
+                  "tag": "免预约",
+                  "color": "#e5bf86"
+                },
+                "itemtag": {
+                  "tag": "",
+                  "color": "#FFF"
+                },
+                "promovalue": "",
+                "priceexplain": "",
+                "priceextrainfo": "",
+                "salesdesc": "已售171",
+                "biz_id": "0",
+                "item_type_self": "tuan",
+                "schema": "https://m.dianping.com/tuan/deal/23963176",
+                "discountList": []
+              },
+              {
+                "shopName": "米棒台湾饭团",
+                "dealgroupid": "25317013",
+                "dealGroupTitle": "招牌饭团1份，提供免费WiFi",
+                "dealgroupPrice": "6",
+                "marketPrice": "8",
+                "saleDesc": "",
+                "shopId": "",
+                "defaultPic": "https://p1.meituan.net/deal/802a28ad8cf3bae13d89f5745fb66e861174918.png%40180w_180h_1e_1c_1l_80q%7Cwatermark%3D0",
+                "item_type": "standard",
+                "distance": "1.8km",
+                "tgcurrentjoin": "134",
+                "recreason": null,
+                "needpromocall": "true",
+                "tgrate": "0.0",
+                "pictag": {
+                  "tag": "免预约",
+                  "color": "#e5bf86"
+                },
+                "itemtag": {
+                  "tag": "",
+                  "color": "#FFF"
+                },
+                "promovalue": "",
+                "priceexplain": "",
+                "priceextrainfo": "",
+                "salesdesc": "已售134",
+                "biz_id": "0",
+                "item_type_self": "tuan",
+                "schema": "https://m.dianping.com/tuan/deal/25317013",
+                "discountList": []
+              },
+              {
+                "shopName": "卤人甲",
+                "dealgroupid": "22711705",
+                "dealGroupTitle": "[13店通用] 10元代金券1张，可叠加",
+                "dealgroupPrice": "9.2",
+                "marketPrice": "10",
+                "saleDesc": "",
+                "shopId": "",
+                "defaultPic": "https://p0.meituan.net/deal/ad7290e7068ad1c321be390d833e3a6852358.jpg%40180w_180h_1e_1c_1l_80q%7Cwatermark%3D0",
+                "item_type": "standard",
+                "distance": "1.9km",
+                "tgcurrentjoin": "4542",
+                "recreason": null,
+                "needpromocall": "true",
+                "tgrate": "0.0",
+                "pictag": {
+                  "tag": "免预约",
+                  "color": "#e5bf86"
+                },
+                "itemtag": {
+                  "tag": "",
+                  "color": "#FFF"
+                },
+                "promovalue": "",
+                "priceexplain": "",
+                "priceextrainfo": "",
+                "salesdesc": "已售4542",
+                "biz_id": "0",
+                "item_type_self": "tuan",
+                "schema": "https://m.dianping.com/tuan/deal/22711705",
+                "discountList": []
+              },
+              {
+                "shopName": "杨铭宇黄焖鸡米饭",
+                "dealgroupid": "12258711",
+                "dealGroupTitle": "[大学城] 美味小吃，建议单人使用，包间免费",
+                "dealgroupPrice": "13.9",
+                "marketPrice": "16",
+                "saleDesc": "",
+                "shopId": "",
+                "defaultPic": "https://p0.meituan.net/deal/81a2f564582edabd309dde177f0c149016054.jpg%40180w_180h_1e_1c_1l_80q%7Cwatermark%3D0",
+                "item_type": "standard",
+                "distance": "1.7km",
+                "tgcurrentjoin": "96",
+                "recreason": null,
+                "needpromocall": "true",
+                "tgrate": "1.0",
+                "pictag": {
+                  "tag": "免预约",
+                  "color": "#e5bf86"
+                },
+                "itemtag": {
+                  "tag": "",
+                  "color": "#FFF"
+                },
+                "promovalue": "",
+                "priceexplain": "",
+                "priceextrainfo": "",
+                "salesdesc": "已售96",
+                "biz_id": "0",
+                "item_type_self": "tuan",
+                "schema": "https://m.dianping.com/tuan/deal/12258711",
+                "discountList": []
+              },
+              {
+                "shopName": "灶记重庆小面",
+                "dealgroupid": "21481165",
+                "dealGroupTitle": "[义乌小商品城] 特色杂酱面1份，提供免费WiFi",
+                "dealgroupPrice": "11.8",
+                "marketPrice": "14",
+                "saleDesc": "",
+                "shopId": "",
+                "defaultPic": "https://p1.meituan.net/deal/d4fd2b3577ded22baedd75d39e9b2d1242024.jpg%40180w_180h_1e_1c_1l_80q%7Cwatermark%3D0",
+                "item_type": "standard",
+                "distance": "1.8km",
+                "tgcurrentjoin": "10",
+                "recreason": null,
+                "needpromocall": "true",
+                "tgrate": "0.0",
+                "pictag": {
+                  "tag": "免预约",
+                  "color": "#e5bf86"
+                },
+                "itemtag": {
+                  "tag": "",
+                  "color": "#FFF"
+                },
+                "promovalue": "",
+                "priceexplain": "",
+                "priceextrainfo": "",
+                "salesdesc": "已售10",
+                "biz_id": "0",
+                "item_type_self": "tuan",
+                "schema": "https://m.dianping.com/tuan/deal/21481165",
+                "discountList": []
+              }
+            ],
+            "mainwelfareUrl": "https://link.dianping.com/universal-link?originalUrl=http%3A%2F%2Fevt.dianping.com%2Fsynthesislink%2F10765.html&schema=dianping%3A%2F%2Fweb%3Furl%3Dhttps%253A%252F%252Fh5.dianping.com%252Fapp%252Fdaily-benefits%252Fstatic%252Findex.html%2523%252Findex%253Futm_source%253DMcnxh"
+          }
+        }
+      },
+      {
+        "moduleName": "img-rb",
+        "lat": "31.948764899999997",
+        "lng": "118.8901466",
+        "config": {},
+        "moduleData": {
+          "code": 200,
+          "msg": "success",
+          "data": null
+        }
+      }
+    ]
+  }
+}
