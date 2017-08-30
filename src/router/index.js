@@ -9,7 +9,7 @@ import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
 import localStore from '../utils/localStore'
 import { CITYNAME } from '../config/localStoreKey'
-import * as userInfoActionFromOtherFile from '../actions/userinfo'
+import * as homeInfoActionFromOtherFile from '../actions/homeInfo'
 
 import Home from '../containers/Home'
 import City from '../containers/City'
@@ -28,7 +28,7 @@ class RouterMap extends Component {
     if (cityName == null) {
       cityName = '北京'
     }
-    this.props.userInfoActions.setCity(cityName)
+    this.props.homeInfoActions.setCity(cityName)
     this.setState({
       initDone: true
     })
@@ -57,7 +57,7 @@ const mapStateToProps = (state) => ({
 })
 
 const mapDispatchToProps = (dispatch) => ({
-  userInfoActions: bindActionCreators(userInfoActionFromOtherFile, dispatch)
+  homeInfoActions: bindActionCreators(homeInfoActionFromOtherFile, dispatch)
 })
 
 const App = connect(

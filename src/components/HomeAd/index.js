@@ -3,7 +3,7 @@ import './style.css'
 
 const Ad = ({ list }) => (
   <div className="home-advertisement">
-    <p>超值特惠</p>
+    <p><span className="title"></span></p>
     <ul>
       {
         list.map((item, index)=> (

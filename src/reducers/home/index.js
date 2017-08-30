@@ -1,12 +1,14 @@
 import { combineReducers } from 'redux'
+import isLoading from './isLoading'
 import setCity from './setCity'
-import getAd from './getAd'
-import getLikes from './getLikes'
+import getActivity from './getActivity'
 
-const userInfo = combineReducers({
+
+
+const homeInfo = combineReducers({
+  isLoading,
   cityName: setCity,
-  adList: getAd,
-  likes: getLikes
+  activity: getActivity
 })
 
-export default userInfo
+export default homeInfo

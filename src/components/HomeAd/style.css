@@ -1,11 +1,14 @@
 .home-advertisement {
     background-color: #fff;
 }
-.home-advertisement p {
-    padding: 26px 30px;
-    font-size: 32px;
-    font-weight: bold;
-    color: #363233;
+.home-advertisement .title {
+    display: inline-block;
+    height: 80px;
+    width: 185px;
+    padding: 20px 0;
+    background: url(../../images/a41a9b3b0c7b20af96d3cacbfd8692c5.png) no-repeat;
+    background-size: 400px;
+    background-position: 20px -45px;
 }
 
 .home-advertisement ul {

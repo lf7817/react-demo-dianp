@@ -1,11 +1,6 @@
 import * as actionTyps from '../constants/userInfo'
 import axios from 'axios'
-import { HOST } from '../constants/host'
-
-let host = HOST
-if (process.env.NODE_ENV === 'development') {
-  host = ''
-}
+import HOST from '../constants/host'
 
 export const setCity = (cityName) => ({
   type: actionTyps.USER_SET_CITY,
@@ -26,7 +21,7 @@ export const getHomeAd = () => {
     dispatch(requstAD())
     try {
       // const res = await axios('/api/homead')
-      const res = await axios(`${host}/assets/json/ad.json`)
+      const res = await axios(`${HOST}/assets/json/ad.json`)
       dispatch(receiveAD(res.data))
     } catch (e) {
 
@@ -49,12 +44,11 @@ const receiveLikes = (cityName, data) => ({
 export const getLikes = (cityName, page) => {
   return async dispatch => {
     dispatch(requestLikes(cityName, page))
-    try {
-     // const res = await axios(`/api/homelist/${cityName}/${page}`)
-     const res = await axios(`${host}/assets/json/likes.json`)
-     dispatch(receiveLikes(cityName, res.data))
-    } catch (e) {
-
-    }
+    new Promise((resolve, reject) => {
+      setTimeout(() => {
+        axios(`${HOST}/assets/json/likes.json`)
+          .then(res => resolve(res))
+      }, page === 0 ? 4000 : 100)
+    }).then(res => dispatch(receiveLikes(cityName, res.data)))
   }
 }

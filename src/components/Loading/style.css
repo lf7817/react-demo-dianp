@@ -1,0 +1,8 @@
+.loading {
+    background-color: #fff;
+    height: 800px;
+    background-image: url(../../images/6261145dd7c0f26bc0a26831e5cb358a.gif);
+    background-repeat:  no-repeat;
+    background-position: center center;
+    background-size: auto 200px;
+}

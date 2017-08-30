@@ -4,68 +4,46 @@ import PureRenderMixin from 'react-addons-pure-render-mixin'
 
 import HomeHeader from '../../components/HomeHeader'
 import Category from '../../components/Category'
-import Ad from '../../components/HomeAd'
-import Likes from '../../components/Likes'
-import LoadMore from '../../components/LoadMore'
+import Activity from '../../components/Activity'
+import Loading from '../../components/Loading'
 
-import * as actions from '../../actions/userinfo'
+import * as ACTION from '../../actions/homeInfo'
 
 class Home extends Component {
   constructor(props) {
     super(props)
     this.shouldComponentUpdate = PureRenderMixin.shouldComponentUpdate.bind(this)
-    this.loadMoreLikes = this.loadMoreLikes.bind(this)
   }
 
   componentDidMount () {
-    if (this.props.userInfo.adList.length === 0) { // 防止从其他页面切换来，重新调用
-      this.props.getHomeAd()
-    }
-
-    if (this.props.userInfo.likes.data.length === 0) { // 防止从其他页面切换来，重新调用
-      this.props.getLikes(this.props.userInfo.cityName, 0)
-    }
-  }
-
-  loadMoreLikes () {
-    this.props.getLikes(this.props.userInfo.cityName, this.props.userInfo.likes.page)
+    this.props.getHomeInfo()
   }
 
   render() {
-    const userInfo = this.props.userInfo
-    const likes = userInfo.likes
+    const homeInfo = this.props.homeInfo
     return (
       <div>
-        <HomeHeader cityName={userInfo.cityName} />
+        <HomeHeader cityName={homeInfo.cityName} />
         <Category />
         {
-          userInfo.adList ?
-            <Ad list={userInfo.adList}/> :
-            <div>加载中...</div>
+          homeInfo.isLoading === true ?
+            <Loading /> : null
         }
         {
-          userInfo.likes.data.length > 0 ?
-            <Likes {...userInfo.likes} /> :
-            <div>加载中...</div>
+          homeInfo.activity.length > 0 ?
+            <Activity /> : null
         }
-        {
-          this.props.userInfo.likes.data.length !== 0 ?
-            <LoadMore isLoading={likes.isLoading} hasMore={likes.hasMore} loadMoreHandle={this.loadMoreLikes} /> :
-            null
-        }
-
       </div>
     )
   }
 }
 
 const mapStateToProps = (state) => ({
-  userInfo: state.userInfo
+  homeInfo: state.homeInfo
 })
 
 const mapDispatchToProps = (dispatch) => ({
-  getHomeAd: () => dispatch(actions.getHomeAd()),
-  getLikes: (cityName, page) => dispatch(actions.getLikes(cityName, page))
+  getHomeInfo: () => dispatch(ACTION.getHomeInfo()),
 })
 
 export default connect(
