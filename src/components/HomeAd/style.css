@@ -1,30 +1,90 @@
 .home-advertisement {
-    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    height: 176px;
+    background: #fff;
+    margin-bottom: 20px;
 }
-.home-advertisement .title {
-    display: inline-block;
-    height: 80px;
-    width: 185px;
-    padding: 20px 0;
-    background: url(../../images/a41a9b3b0c7b20af96d3cacbfd8692c5.png) no-repeat;
-    background-size: 400px;
-    background-position: 20px -45px;
+.home-advertisement .item {
+    display: flex;
+    width: 363px;
+    height: 160px;
+    margin-top: 8px;
 }
 
-.home-advertisement ul {
+.home-advertisement .item:first-child {
+    margin-right: 8px;
+    background-color: #ffa383;
+}
+
+.home-advertisement .item:last-child {
+    background-color: #44d0cd;
+}
+
+.home-advertisement .item .title {
+    color: #fff;
+}
+
+.home-advertisement .item .title h1 {
+    margin: 28px 0 0 24px;
+    font-size: 30px;
+    font-weight: normal;
+}
+.home-advertisement .item .title h2 {
+    margin: 10px 0 0 24px;
+    padding: 4px;
+    border-radius: 20px;
+    font-weight: normal;
+    font-size: 24px;
+    text-align: center;
+    background-color: #f97e54;
+}
+.home-advertisement .item:last-child .title h2 {
+    background-color: #22bab7;
+}
+.home-advertisement .item img {
+    margin: 20px 0 0 24px;
+    width: 120px;
+    height: 120px;
+}
+
+.home-rb {
     display: flex;
-    flex-flow: row wrap;
-    list-style: none;
+    justify-content: center;
+    height: 176px;
+    background: #fff;
+    margin-bottom: 20px;
 }
-.home-advertisement ul li {
-    box-sizing: border-box;
-    width: 250px;
-    height:260px;
-    border: 1px solid #eee;
+.home-rb .item {
+    display: flex;
+    width: 360px;
+    height: 160px;
+    margin-top: 8px;
 }
-.home-advertisement ul li img {
-    width: 100%;
-    height: 100%;
-    border: 0;
-    box-shadow: none;
+
+.home-rb .item .title {
+    color: #fff;
+}
+
+.home-rb .item .title h1 {
+    margin: 28px 0 0 24px;
+    font-size: 30px;
+    font-weight: normal;
+    color: #ff8267;
+}
+
+.home-rb .item:first-child .title h1 {
+    color: #4eb0de;
+}
+.home-rb .item .title h2 {
+    margin: 10px 0 0 24px;
+    font-weight: normal;
+    font-size: 24px;
+    color: #999999;
+}
+
+.home-rb .item img {
+    margin: 20px 0 0 24px;
+    width: 120px;
+    height: 120px;
 }

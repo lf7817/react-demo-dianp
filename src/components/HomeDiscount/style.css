@@ -1,0 +1,79 @@
+.home-discount {
+    background-color: #fff;
+    margin-bottom: 20px;
+ }
+
+.home-discount .title {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    line-height: 80px;
+}
+
+.home-discount .title .more {
+    margin-right: 20px;
+    color: #999;
+    font-size: 24px;
+}
+
+.home-discount .title .more i {
+    position: relative;
+    top: 10px;
+    margin-left: 8px;
+    font-size: 46px;
+}
+.home-discount .title .title-left {
+    display: block;
+    width: 180px;
+    height: 80px;
+    background: url(../../images/a41a9b3b0c7b20af96d3cacbfd8692c5.png) no-repeat;
+    background-size: 400px auto;
+    background-position: 20px -52px;
+}
+
+.home-discount .content {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.home-discount .content a {
+    display: flex;
+    width: 240px;
+    padding: 0 10px;
+    flex-direction: column;
+}
+
+.home-discount .content a img {
+    width: 100%;
+    height: auto    ;
+}
+
+.home-discount .content a .name {
+    display: block;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    color: #333333;
+    font-size: 28px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.home-discount .content a .price {
+    color: #ff6735;
+    font-size: 36px;
+    letter-spacing: -1px;
+}
+.home-discount .content a .price em {
+    font-size: 24px;
+    font-style: normal;
+
+}
+.home-discount .content a .mark-price {
+    margin-left: 10px;
+    color: #999999;
+    font-size: 24px;
+    text-decoration: line-through;
+}

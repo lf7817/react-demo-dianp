@@ -1,22 +1,25 @@
-import React from 'react'
+import  React, { Component } from 'react'
+import PureRenderMixin from 'react-addons-pure-render-mixin'
+import AdItem from './AdItem'
 import './style.css'
 
-const Ad = ({ list }) => (
-  <div className="home-advertisement">
-    <p><span className="title"></span></p>
-    <ul>
-      {
-        list.map((item, index)=> (
-          <li key={index}>
-            <a href={item.link}>
-              <img src={item.img} alt={item.title}/>
-            </a>
-          </li>
-        ))
-      }
-    </ul>
-  </div>
-)
+class HomeAd extends Component {
+  constructor (props) {
+    super(props)
+    this.shouldComponentUpdate = PureRenderMixin.shouldComponentUpdate.bind(this)
+  }
 
+  render () {
+    return (
+      <div className={this.props.className}>
+        {
+          this.props.list.map((item, index) => (
+            <AdItem key={index} item={item} className="item"/>
+          ))
+        }
+      </div>
+    )
+  }
+}
 
-export default Ad
+export default HomeAd

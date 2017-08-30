@@ -19,13 +19,23 @@ const requestHomeInfoFailure = () => ({
   type: actionTyps.REQUEST_HOME_INFO_FAILURE
 })
 
-const getActivity = (data) => ({
-  type: actionTyps.GET_ACTIVITY,
+const getAd = (data) => ({
+  type: actionTyps.GET_AD,
   data
 })
 
 const getRb = (data) => ({
   type: actionTyps.GET_RB,
+  data
+})
+
+const getDiscount = (data) => ({
+  type: actionTyps.GET_DISCOUNT,
+  data
+})
+
+const getReduce = (data) => ({
+  type: actionTyps.GET_REDUCE,
   data
 })
 
@@ -38,8 +48,10 @@ export const getHomeInfo = () => {
         if (res.data.code === 200) {
           const modules = analyse(res.data.data.moduleInfoList)
           dispatch(receiveHomeInfo())
-          dispatch(getActivity(modules['xyhzq']))
+          dispatch(getAd(modules['xyhzq']))
           dispatch(getRb(modules['rb']))
+          dispatch(getDiscount(modules['czth']))
+          dispatch(getReduce(modules['ttlj']))
         } else {
           dispatch(requestHomeInfoFailure())
         }

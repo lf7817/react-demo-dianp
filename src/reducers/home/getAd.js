@@ -1,11 +1,9 @@
-import * as actionTypes from '../../constants/userInfo'
+import * as actionTypes from '../../constants/homeInfo'
 
 const getAd = (state = [], action) => {
   switch (action.type) {
-    case actionTypes.REQUEST_AD:
-      return state
-    case actionTypes.RECEIVE_AD:
-      return action.list
+    case actionTypes.GET_AD:
+      return action.data.moduleData.data.list
     default:
       return state
   }

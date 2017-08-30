@@ -1,0 +1,84 @@
+.home-reduce {
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+.home-reduce .title {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    line-height: 80px;
+}
+
+.home-reduce .title .more {
+    margin-right: 20px;
+    color: #999;
+    font-size: 24px;
+}
+
+.home-reduce .title .more i {
+    position: relative;
+    top: 9px;
+    margin-left: 8px;
+    font-size: 46px;
+}
+.home-reduce .title .title-left {
+    display: block;
+    width: 180px;
+    height: 80px;
+    background: url(../../images/a41a9b3b0c7b20af96d3cacbfd8692c5.png) no-repeat;
+    background-size: 400px auto;
+    background-position: 20px -120px;
+}
+
+.home-reduce .content {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.home-reduce .content a {
+    display: flex;
+    width: 240px;
+    padding: 0 10px;
+    flex-direction: column;
+}
+
+.home-reduce .content a img {
+    width: 100%;
+    height: auto    ;
+}
+
+.home-reduce .content a .name {
+    display: block;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    color: #333333;
+    font-size: 28px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.home-reduce .content a .price {
+    color: #ff6735;
+    font-size: 36px;
+    letter-spacing: -1px;
+}
+.home-reduce .content a .price em {
+    font-size: 24px;
+    font-style: normal;
+
+}
+.home-reduce .content a .tag {
+    position: relative;
+    top: -6px;
+    display: inline-block;
+    margin-left: 18px;
+    border: 1px solid #ff6735;
+    border-radius: 8px;
+    color: #ff6735;
+    padding: 2px 4px;
+    font-size: 18px;
+}

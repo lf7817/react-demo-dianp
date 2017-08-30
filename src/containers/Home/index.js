@@ -4,8 +4,11 @@ import PureRenderMixin from 'react-addons-pure-render-mixin'
 
 import HomeHeader from '../../components/HomeHeader'
 import Category from '../../components/Category'
-import Activity from '../../components/Activity'
+import HomeBanner from '../../components/HomeBanner'
+import HomeAd from '../../components/HomeAd'
 import Loading from '../../components/Loading'
+import HomeDiscount from '../../components/HomeDiscount'
+import HomeReduce from '../../components/HomeReduce'
 
 import * as ACTION from '../../actions/homeInfo'
 
@@ -16,7 +19,10 @@ class Home extends Component {
   }
 
   componentDidMount () {
-    this.props.getHomeInfo()
+    const homeInfo = this.props.homeInfo
+    if (homeInfo.rblist.length === 0) {
+      this.props.getHomeInfo()
+    }
   }
 
   render() {
@@ -30,8 +36,24 @@ class Home extends Component {
             <Loading /> : null
         }
         {
-          homeInfo.activity.length > 0 ?
-            <Activity /> : null
+          homeInfo.rblist.length > 0 ?
+            <HomeBanner /> : null
+        }
+        {
+          homeInfo.rblist.length > 0 ?
+            <HomeAd list={homeInfo.rblist} className="home-rb"/> : null
+        }
+        {
+          homeInfo.adlist.length > 0 ?
+            <HomeAd list={homeInfo.adlist} className="home-advertisement"/> : null
+        }
+        {
+          homeInfo.discountlist.length > 0 ?
+            <HomeDiscount list={homeInfo.discountlist} /> : null
+        }
+        {
+          homeInfo.discountlist.length > 0 ?
+            <HomeReduce list={homeInfo.reducelist} /> : null
         }
       </div>
     )
