@@ -19,6 +19,11 @@ const requestHomeInfoFailure = () => ({
   type: actionTyps.REQUEST_HOME_INFO_FAILURE
 })
 
+const getHeadLine = (data) => ({
+  type: actionTyps.GET_HEADLINE,
+  data
+})
+
 const getAd = (data) => ({
   type: actionTyps.GET_AD,
   data
@@ -76,11 +81,12 @@ export const getHomeInfo = () => {
         if (res.data.code === 200) {
           const modules = analyse(res.data.data.moduleInfoList)
           dispatch(receiveHomeInfo())
+          dispatch(getHeadLine(modules['headline']))
           dispatch(getAd(modules['xyhzq']))
           dispatch(getRb(modules['rb']))
           dispatch(getDiscount(modules['czth']))
           dispatch(getReduce(modules['ttlj']))
-          dispatch(getLikes(modules['cnxh']))
+          dispatch(getLikes(modules['cnxh']))          
         } else {
           dispatch(requestHomeInfoFailure())
         }

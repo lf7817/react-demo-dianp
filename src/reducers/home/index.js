@@ -6,6 +6,7 @@ import getRd from './getRb'
 import getDiscount from './getDiscount'
 import getReduce from './getReduce'
 import getLikes from './getLikes'
+import getHeadLine from './getHeadLine'
 
 const homeInfo = combineReducers({
   isLoading,
@@ -14,7 +15,8 @@ const homeInfo = combineReducers({
   rblist: getRd,
   discountlist: getDiscount,
   reducelist: getReduce,
-  likelist: getLikes
+  likelist: getLikes,
+  headline: getHeadLine
 })
 
 export default homeInfo

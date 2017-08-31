@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import { connect } from 'react-redux'
 import PureRenderMixin from 'react-addons-pure-render-mixin'
 
 import CityHeader from '../../components/CityHeader'

@@ -11,6 +11,7 @@ import HomeDiscount from '../../components/HomeDiscount'
 import HomeReduce from '../../components/HomeReduce'
 import Likes from '../../components/Likes'
 import LoadMore from '../../components/LoadMore'
+import HeadLine from '../../components/HeadLine'
 
 import * as ACTION from '../../actions/homeInfo'
 
@@ -36,13 +37,14 @@ class Home extends Component {
     const homeInfo = this.props.homeInfo
     return (
       <div>
-        <HomeHeader cityName={homeInfo.cityName} />
+        <HomeHeader cityName={homeInfo.cityName} />        
         <Category />
         {
           homeInfo.isLoading === true ?
             <Loading /> : 
             homeInfo.likelist.data.length > 0 ? (
               <div>
+                <HeadLine list={homeInfo.headline}/>
                 <HomeBanner />
                 <HomeAd list={homeInfo.rblist} className="home-rb"/>
                 <HomeAd list={homeInfo.adlist} className="home-advertisement"/>
