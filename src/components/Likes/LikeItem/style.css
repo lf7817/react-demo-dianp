@@ -1,4 +1,5 @@
 .likes-list-item {
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -14,6 +15,16 @@
     border: 0;
 }
 
+.likes-list-item .img-tag {
+    position: absolute;
+    top: 24px;
+    left: 0;
+    background: #000;
+    color: #e5bf86;
+    padding: 6px 14px;
+    border-radius: 6px;
+}
+
 .item-content {
     width: 438px;
     height: 180px;
@@ -27,8 +38,14 @@
 }
 
 .item-content-top .name {
+    display: inline-block;
+    width: 360px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
     color: #353132;
-    font-size: 30px;
+    font-size: 32px;
+    font-weight: bold;
 }
 
 .item-content-top .distance {

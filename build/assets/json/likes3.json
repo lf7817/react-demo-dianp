@@ -1,0 +1,336 @@
+{
+    "code": 200,
+    "msg": "success",
+    "data": {
+        "moduleInfoList": [{
+            "moduleName": "cnxh",
+            "version": "0",
+            "config": {
+                "bord": "true",
+                "hideWelfare": "false",
+                "showOverlay": "true",
+                "categoryType": "standard",
+                "mainwelfare_utm": "ulink_mainwelfare",
+                "mainwelfare_link_ios": "https://link.dianping.com/universal-link?originalUrl=http%3A%2F%2Fevt.dianping.com%2Fsynthesislink%2F10765.html&schema=dianping%3A%2F%2Fweb%3Furl%3Dhttps%253A%252F%252Fh5.dianping.com%252Fapp%252Fdaily-benefits%252Fstatic%252Findex.html%2523%252Findex%253Futm_source%253DMcnxh",
+                "mainwelfare_link_android": "http://evt.dianping.com/synthesislink/10765.html"
+            },
+            "query": {
+                "startNum": "4"
+            },
+            "lat": "31.948808599999996",
+            "lng": "118.8902619",
+            "moduleData": {
+                "code": 200,
+                "msg": "success",
+                "data": {
+                    "startNum": 4,
+                    "overSea": false,
+                    "totalNum": 132,
+                    "searchQueryId": "2e3f45e4-130f-4ce6-9b9b-d386cb192a01",
+                    "guessYouVoList": [{
+                        "shopName": "漫花园重庆火锅·美蛙鱼头",
+                        "dealgroupid": "26573910",
+                        "dealGroupTitle": "[升州路/集庆路] 100元超值限量现金券1张",
+                        "dealgroupPrice": "29.9",
+                        "marketPrice": "100",
+                        "saleDesc": "",
+                        "shopId": "",
+                        "defaultPic": "https://p1.meituan.net/deal/e6a67cfb3d0c07774ad79b86c2384fe4132340.jpg%40180w_180h_1e_1c_1l_80q%7Cwatermark%3D0",
+                        "item_type": "standard",
+                        "distance": null,
+                        "tgcurrentjoin": "4396",
+                        "recreason": null,
+                        "needpromocall": "true",
+                        "tgrate": "0.0",
+                        "pictag": {
+                            "tag": "免预约",
+                            "color": "#e5bf86"
+                        },
+                        "itemtag": {
+                            "tag": "",
+                            "color": "#FFF"
+                        },
+                        "promovalue": "",
+                        "priceexplain": "",
+                        "priceextrainfo": "",
+                        "salesdesc": "已售4396",
+                        "biz_id": "0",
+                        "item_type_self": "tuan",
+                        "schema": "https://m.dianping.com/tuan/deal/26573910"
+                    }, {
+                        "shopName": "田螺大大",
+                        "dealgroupid": "25381376",
+                        "dealGroupTitle": "[新街口地区] 秘制螺蛳粉＋玉米糖水1份",
+                        "dealgroupPrice": "19.8",
+                        "marketPrice": "25",
+                        "saleDesc": "",
+                        "shopId": "",
+                        "defaultPic": "https://p1.meituan.net/deal/8b1041ed628ff2410a50ae43fe6e8ac8107247.jpg%40180w_180h_1e_1c_1l_80q%7Cwatermark%3D0",
+                        "item_type": "standard",
+                        "distance": null,
+                        "tgcurrentjoin": "1467",
+                        "recreason": null,
+                        "needpromocall": "true",
+                        "tgrate": "0.0",
+                        "pictag": {
+                            "tag": "免预约",
+                            "color": "#e5bf86"
+                        },
+                        "itemtag": {
+                            "tag": "",
+                            "color": "#FFF"
+                        },
+                        "promovalue": "",
+                        "priceexplain": "",
+                        "priceextrainfo": "",
+                        "salesdesc": "已售1467",
+                        "biz_id": "0",
+                        "item_type_self": "tuan",
+                        "schema": "https://m.dianping.com/tuan/deal/25381376"
+                    }, {
+                        "shopName": "牛夫人鲜牛肉火锅",
+                        "dealgroupid": "26693206",
+                        "dealGroupTitle": "[珠江路沿线] 100元冰凉一夏代金券1张",
+                        "dealgroupPrice": "38",
+                        "marketPrice": "100",
+                        "saleDesc": "",
+                        "shopId": "",
+                        "defaultPic": "https://p1.meituan.net/deal/205c71f57163589d64f86b1fe27cbd6522506.jpg%40180w_180h_1e_1c_1l_80q%7Cwatermark%3D0",
+                        "item_type": "standard",
+                        "distance": null,
+                        "tgcurrentjoin": "471",
+                        "recreason": null,
+                        "needpromocall": "true",
+                        "tgrate": "0.0",
+                        "pictag": {
+                            "tag": "免预约",
+                            "color": "#e5bf86"
+                        },
+                        "itemtag": {
+                            "tag": "",
+                            "color": "#FFF"
+                        },
+                        "promovalue": "",
+                        "priceexplain": "",
+                        "priceextrainfo": "",
+                        "salesdesc": "已售471",
+                        "biz_id": "0",
+                        "item_type_self": "tuan",
+                        "schema": "https://m.dianping.com/tuan/deal/26693206"
+                    }, {
+                        "shopName": "沙宣私人定制美发沙龙",
+                        "dealgroupid": "26537692",
+                        "dealGroupTitle": "[油坊桥] 洗剪吹开业特价套餐",
+                        "dealgroupPrice": "18.8",
+                        "marketPrice": "39",
+                        "saleDesc": "",
+                        "shopId": "",
+                        "defaultPic": "https://p0.meituan.net/dpdeal/d1e1419f3436073d7647c12867dfb7b0110864.jpg%40180w_180h_1e_1c_1l_80q%7Cwatermark%3D0",
+                        "item_type": "standard",
+                        "distance": null,
+                        "tgcurrentjoin": "27",
+                        "recreason": null,
+                        "needpromocall": "true",
+                        "tgrate": "0.0",
+                        "pictag": {
+                            "tag": "免预约",
+                            "color": "#e5bf86"
+                        },
+                        "itemtag": {
+                            "tag": "",
+                            "color": "#FFF"
+                        },
+                        "promovalue": "",
+                        "priceexplain": "",
+                        "priceextrainfo": "",
+                        "salesdesc": "已售27",
+                        "biz_id": "0",
+                        "item_type_self": "tuan",
+                        "schema": "https://m.dianping.com/tuan/deal/26537692"
+                    }, {
+                        "shopName": "q炭长",
+                        "dealgroupid": "26605543",
+                        "dealGroupTitle": "蜂蜜柠檬汁1杯，提供免费WiFi",
+                        "dealgroupPrice": "1.9",
+                        "marketPrice": "12",
+                        "saleDesc": "",
+                        "shopId": "",
+                        "defaultPic": "https://p1.meituan.net/deal/21b91f8e3ae0fb5e93491943e4716cc743354.jpg%40180w_180h_1e_1c_1l_80q%7Cwatermark%3D0",
+                        "item_type": "standard",
+                        "distance": null,
+                        "tgcurrentjoin": "121",
+                        "recreason": null,
+                        "needpromocall": "true",
+                        "tgrate": "0.0",
+                        "pictag": {
+                            "tag": "免预约",
+                            "color": "#e5bf86"
+                        },
+                        "itemtag": {
+                            "tag": "",
+                            "color": "#FFF"
+                        },
+                        "promovalue": "",
+                        "priceexplain": "",
+                        "priceextrainfo": "",
+                        "salesdesc": "已售121",
+                        "biz_id": "0",
+                        "item_type_self": "tuan",
+                        "schema": "https://m.dianping.com/tuan/deal/26605543"
+                    }, {
+                        "shopName": "旋转木马KTV",
+                        "dealgroupid": "8446268",
+                        "dealGroupTitle": "[大厂] 周一至周日欢唱券",
+                        "dealgroupPrice": "5.1",
+                        "marketPrice": "30",
+                        "saleDesc": "",
+                        "shopId": "",
+                        "defaultPic": "https://p1.meituan.net/dpdeal/529618a09e2705daebd941a30581661886421.jpg%40180w_180h_1e_1c_1l_80q%7Cwatermark%3D0",
+                        "item_type": "standard",
+                        "distance": null,
+                        "tgcurrentjoin": "6381",
+                        "recreason": null,
+                        "needpromocall": "true",
+                        "tgrate": "0.98",
+                        "pictag": {
+                            "tag": "免预约",
+                            "color": "#e5bf86"
+                        },
+                        "itemtag": {
+                            "tag": "",
+                            "color": "#FFF"
+                        },
+                        "promovalue": "",
+                        "priceexplain": "",
+                        "priceextrainfo": "",
+                        "salesdesc": "已售6381",
+                        "biz_id": "0",
+                        "item_type_self": "tuan",
+                        "schema": "https://m.dianping.com/tuan/deal/8446268"
+                    }, {
+                        "shopName": "双厨门烤物料理",
+                        "dealgroupid": "26786379",
+                        "dealGroupTitle": "[应天大街/文体路] 100元开业钜惠优惠券1张",
+                        "dealgroupPrice": "49",
+                        "marketPrice": "100",
+                        "saleDesc": "",
+                        "shopId": "",
+                        "defaultPic": "https://p1.meituan.net/deal/ed2251db0d21a75961e3d0b8db147e4b217385.jpg%40180w_180h_1e_1c_1l_80q%7Cwatermark%3D0",
+                        "item_type": "standard",
+                        "distance": null,
+                        "tgcurrentjoin": "539",
+                        "recreason": null,
+                        "needpromocall": "true",
+                        "tgrate": "0.0",
+                        "pictag": {
+                            "tag": "免预约",
+                            "color": "#e5bf86"
+                        },
+                        "itemtag": {
+                            "tag": "",
+                            "color": "#FFF"
+                        },
+                        "promovalue": "",
+                        "priceexplain": "",
+                        "priceextrainfo": "",
+                        "salesdesc": "已售539",
+                        "biz_id": "0",
+                        "item_type_self": "tuan",
+                        "schema": "https://m.dianping.com/tuan/deal/26786379"
+                    }, {
+                        "shopName": "鸡王椒麻凤爪",
+                        "dealgroupid": "26796897",
+                        "dealGroupTitle": "[2店通用] 椒麻鸡胗1份，提供免费WiFi",
+                        "dealgroupPrice": "3",
+                        "marketPrice": "15",
+                        "saleDesc": "",
+                        "shopId": "",
+                        "defaultPic": "https://p1.meituan.net/deal/2bbe32b9c2e1a38125529f351216a18d48594.jpg%40180w_180h_1e_1c_1l_80q%7Cwatermark%3D0",
+                        "item_type": "standard",
+                        "distance": null,
+                        "tgcurrentjoin": "333",
+                        "recreason": null,
+                        "needpromocall": "true",
+                        "tgrate": "0.0",
+                        "pictag": {
+                            "tag": "免预约",
+                            "color": "#e5bf86"
+                        },
+                        "itemtag": {
+                            "tag": "",
+                            "color": "#FFF"
+                        },
+                        "promovalue": "",
+                        "priceexplain": "",
+                        "priceextrainfo": "",
+                        "salesdesc": "已售333",
+                        "biz_id": "0",
+                        "item_type_self": "tuan",
+                        "schema": "https://m.dianping.com/tuan/deal/26796897"
+                    }, {
+                        "shopName": "串倾城",
+                        "dealgroupid": "26807225",
+                        "dealGroupTitle": "超值1-2人套餐",
+                        "dealgroupPrice": "19.9",
+                        "marketPrice": "55",
+                        "saleDesc": "",
+                        "shopId": "",
+                        "defaultPic": "https://p0.meituan.net/deal/d2f1d5020755bd6f5e3c00233d39ce8f106474.jpg%40180w_180h_1e_1c_1l_80q%7Cwatermark%3D0",
+                        "item_type": "standard",
+                        "distance": null,
+                        "tgcurrentjoin": "210",
+                        "recreason": null,
+                        "needpromocall": "true",
+                        "tgrate": "0.0",
+                        "pictag": {
+                            "tag": "免预约",
+                            "color": "#e5bf86"
+                        },
+                        "itemtag": {
+                            "tag": "",
+                            "color": "#FFF"
+                        },
+                        "promovalue": "",
+                        "priceexplain": "",
+                        "priceextrainfo": "",
+                        "salesdesc": "已售210",
+                        "biz_id": "0",
+                        "item_type_self": "tuan",
+                        "schema": "https://m.dianping.com/tuan/deal/26807225"
+                    }, {
+                        "shopName": "烈焰红唇串串香",
+                        "dealgroupid": "26789377",
+                        "dealGroupTitle": "[新街口地区] 20元代金券1张，可叠加2张",
+                        "dealgroupPrice": "9.9",
+                        "marketPrice": "20",
+                        "saleDesc": "",
+                        "shopId": "",
+                        "defaultPic": "https://p0.meituan.net/deal/e2015f6b420ea974e676a1b82018277928048.jpg%40180w_180h_1e_1c_1l_80q%7Cwatermark%3D0",
+                        "item_type": "standard",
+                        "distance": null,
+                        "tgcurrentjoin": "127",
+                        "recreason": null,
+                        "needpromocall": "true",
+                        "tgrate": "0.0",
+                        "pictag": {
+                            "tag": "免预约",
+                            "color": "#e5bf86"
+                        },
+                        "itemtag": {
+                            "tag": "",
+                            "color": "#FFF"
+                        },
+                        "promovalue": "",
+                        "priceexplain": "",
+                        "priceextrainfo": "",
+                        "salesdesc": "已售127",
+                        "biz_id": "0",
+                        "item_type_self": "tuan",
+                        "schema": "https://m.dianping.com/tuan/deal/26789377"
+                    }],
+                    "mainwelfareUrl": "https://link.dianping.com/universal-link?originalUrl=http%3A%2F%2Fevt.dianping.com%2Fsynthesislink%2F10765.html&schema=dianping%3A%2F%2Fweb%3Furl%3Dhttps%253A%252F%252Fh5.dianping.com%252Fapp%252Fdaily-benefits%252Fstatic%252Findex.html%2523%252Findex%253Futm_source%253DMcnxh"
+                }
+            }
+        }]
+    }
+}

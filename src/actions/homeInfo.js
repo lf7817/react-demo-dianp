@@ -39,6 +39,34 @@ const getReduce = (data) => ({
   data
 })
 
+const requestLikes = (page) => ({
+  type: actionTyps.REQUEST_LIKES,
+  page
+})
+
+const receiveLikes = (data) => ({
+  type: actionTyps.RECEIVE_LIKES,
+  data
+})
+
+export const getNewLikeList = (page) => {
+  return async dispatch => {
+    dispatch(requestLikes(page))
+    try {
+      const res = await axios(`${HOST}/assets/json/likes${page}.json`)
+      const modules = analyse(res.data.data.moduleInfoList)
+      setTimeout(() => dispatch(receiveLikes(modules['cnxh'])), 200);
+    } catch (e) {
+
+    }
+  }
+}
+
+const getLikes = (data) => ({
+  type: actionTyps.GET_LIKES,
+  data
+})
+
 export const getHomeInfo = () => {
   return async dispatch => {
     dispatch(requestHomeInfo())
@@ -52,6 +80,7 @@ export const getHomeInfo = () => {
           dispatch(getRb(modules['rb']))
           dispatch(getDiscount(modules['czth']))
           dispatch(getReduce(modules['ttlj']))
+          dispatch(getLikes(modules['cnxh']))
         } else {
           dispatch(requestHomeInfoFailure())
         }
