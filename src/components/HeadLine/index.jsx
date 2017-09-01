@@ -44,11 +44,10 @@ class HeadLine extends Component {
             }
           </CSSTransitionGroup>
           <CSSTransitionGroup
-            transitionName="move-top-next"
+            transitionName="move-top"
             transitionEnterTimeout={1000}
             transitionLeaveTimeout={1000} >
             {
-              /* TODO:这里动画离开时安卓端会闪一下 */
               this.state.isShow === false ?
               <HeadLineItem item={list[this.state.index]} /> : null 
             }
