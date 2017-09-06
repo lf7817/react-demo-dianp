@@ -1,0 +1,10 @@
+.likes-hover {
+    position: fixed;
+    bottom: 25px;
+    left: 25px;
+    width: 700px;
+    height: 100px;
+    background-color: #333;
+    opacity: 0.8;
+    border-radius: 12px;
+}
