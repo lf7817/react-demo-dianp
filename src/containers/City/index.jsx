@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import PureRenderMixin from 'react-addons-pure-render-mixin'
 
 import CityHeader from '../../components/CityHeader'
+import SearchCity from '../../components/SearchCity'
+import CityPosition from '../../components/CityPosition'
 
 class City extends Component {
   constructor (props) {
@@ -9,11 +11,16 @@ class City extends Component {
     this.shouldComponentUpdate = PureRenderMixin.shouldComponentUpdate.bind(this)
   }
 
+  componentDidMount () {
+
+  }
+
   render () {
-    console.log(this.props)
     return (
       <div>
         <CityHeader />
+        <SearchCity />
+        <CityPosition />
       </div>
     )
   }

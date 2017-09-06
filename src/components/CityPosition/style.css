@@ -1,0 +1,25 @@
+.city-position {
+    height: 100px;
+    line-height: 100px;
+    background-color: #fff;
+    font-family: "\5FAE\8F6F\96C5\9ED1","Times New Roman",Georgia,Serif
+}
+.city-position .guess-city-name {
+    margin: 0 20px 0 20px;
+    font-size: 28px;
+
+}
+.city-position .position-way {
+    font-size: 28px;
+    color: #999;
+}
+.my-map {
+    display: none;
+}
+.positioning {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+    color: #999;
+}

@@ -103,6 +103,9 @@ module.exports = {
       new ModuleScopePlugin(paths.appSrc, [paths.appPackageJson]),
     ],
   },
+  externals:{
+    'qq':'qq'
+  },
   module: {
     strictExportPresence: true,
     rules: [

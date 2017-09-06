@@ -1,7 +1,7 @@
 .city-header {
     display: flex;
     align-items: center;
-    height: 100px;
+    height: 90px;
     background-color: #fff; /*rgb(233, 32, 61);*/
     /*color: orange;*/
 }

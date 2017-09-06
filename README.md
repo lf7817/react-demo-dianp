@@ -88,7 +88,22 @@ plugins: () => [
 ```
 默认设计稿为750，默认dpr为2，自动转换rem ，具体查看[API](https://www.npmjs.com/package/postcss-adaptive)
 
+# 定位
+定位采用腾讯地图，因为人家支持HTTPS，chrome和ios最新版不支持http
 
+需要在html中引用，然后修改webpack.config.dev.js和webpack.config.prod.js
+```
+module.exports = {
+  ...
+  externals:{
+    'qq':'qq'
+  },
+  ...
+}
+
+// 引用
+import qq from 'qq'
+```
 
 # changes
 + 2017-08-27

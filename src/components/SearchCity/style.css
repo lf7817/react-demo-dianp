@@ -1,0 +1,25 @@
+.city-search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    height: 64px;
+    margin: 18px 56px;
+    background: #fff;
+    border-radius: 36px;
+}
+
+.city-search i {
+    position: relative;
+    margin-right: 10px; 
+    color: #ccc;
+    font-size: 30px;
+
+}
+
+.city-search input {
+    width: 280px;
+    font-size: 28px;
+    border: none;
+    color: #999;
+}
