@@ -22,11 +22,11 @@ class HomeHeader extends Component {
 
         <div className="home-header-center">
           <i className="icon-search"></i>
-          <input type="text" placeholder="请输入关键字"/>
+          <input type="text" placeholder="输入商户名、地点"/>
         </div>
 
         <div className="home-header-right">
-          <i className="icon-user"></i>
+          <a href="/#/">用户中心</a>
         </div>
       </div>
     )

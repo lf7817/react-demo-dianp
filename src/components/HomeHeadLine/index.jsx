@@ -6,7 +6,7 @@ import HeadLineItem from './HeadLineItem'
 import './style.css'
 
 
-class HeadLine extends Component {
+class HomeHeadLine extends Component {
   constructor (props) {
     super(props)
     this.shouldComponentUpdate = PureRenderMixin.shouldComponentUpdate.bind(this)
@@ -59,4 +59,4 @@ class HeadLine extends Component {
   }
 }
 
-export default HeadLine
+export default HomeHeadLine

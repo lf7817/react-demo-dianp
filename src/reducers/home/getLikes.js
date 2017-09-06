@@ -1,6 +1,7 @@
 import * as actionTypes from '../../constants/homeInfo'
 
 const getLikes = (state = {
+  isShowLikesHover: true,
   isLoading: false,
   hasMore: true,
   data:[],
@@ -17,14 +18,20 @@ const getLikes = (state = {
     case actionTypes.REQUEST_LIKES:
       return {
         ...state,
-        isLoading: true
+        isLoading: true        
       }
     case actionTypes.RECEIVE_LIKES:
       return {
+        ...state,
         isLoading: false,
         page: param.startNum,
         hasMore: state.page >= 3 ? false : true,
         data: [...state.data, ...param.guessYouVoList]
+      }
+    case actionTypes.HIDE_LIKES_HOVER:
+      return {
+        ...state,
+        isShowLikesHover: false
       }
     default:
       return state

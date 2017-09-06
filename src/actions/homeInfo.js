@@ -54,6 +54,8 @@ const receiveLikes = (data) => ({
   data
 })
 
+
+
 export const getNewLikeList = (page) => {
   return async dispatch => {
     dispatch(requestLikes(page))
@@ -70,6 +72,10 @@ export const getNewLikeList = (page) => {
 const getLikes = (data) => ({
   type: actionTyps.GET_LIKES,
   data
+})
+
+export const hideLikesHover = () => ({
+  type: actionTyps.HIDE_LIKES_HOVER
 })
 
 export const getHomeInfo = () => {

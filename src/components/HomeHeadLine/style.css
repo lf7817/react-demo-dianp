@@ -72,8 +72,8 @@
     transform: translateY(0);
     transition: all .5s;
 }
-.move-top-leave-active {
-    opacity: 0;
+.move-top-leave.move-top-leave-active {
+    opacity: 0.01;
     transform: translateY(-110px);
     transition: all .5s;
 }

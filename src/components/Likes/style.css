@@ -10,3 +10,14 @@
     list-style: none;
     background-color: #ffffff;
 }
+
+.like-hover-hide {
+    opacity: 1;
+}
+.like-hover-hide-leave {
+    opacity: 1;
+}
+.like-hover-hide-leave.like-hover-hide-leave-active {
+    opacity: 0.01;
+    transition: opacity 300ms ease-in;
+}

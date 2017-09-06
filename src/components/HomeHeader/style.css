@@ -8,7 +8,7 @@
 }
 
 .home-header-left {
-    width: 172px;
+    width: 140px;
     text-align: center;
 }
 
@@ -18,7 +18,7 @@
 }
 
 .home-header-center {
-    width: 472px;
+    width: 520px;
     height: 60px;
     line-height: 60px;
     background: #fff;
@@ -26,8 +26,9 @@
 }
 
 .home-header-center input {
-    width: 400px;
+    width: 430px;
     border: none;
+    color: #c8b8b8;
     text-indent: 20px;
     font-size: 28px !important;
     font-weight: normal;
@@ -40,6 +41,16 @@
     color: #ccc !important;
 }
 .home-header-right {
-    width: 106px;
+    width: 90px;
     text-align: center;
+}
+.home-header-right a {
+    display: inline-block;
+    width: 56px;
+    height: 70px;
+    color: #fff;
+    text-indent: -10000px;
+    background: url(../../images/d53930bbff0bf22cb8cea72503da44d9.png) no-repeat;
+    background-size: 500px;
+    background-position: left -148px;
 }

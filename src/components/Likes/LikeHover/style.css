@@ -1,10 +1,79 @@
 .likes-hover {
+    display: flex;
+    align-items: center;
     position: fixed;
-    bottom: 25px;
-    left: 25px;
-    width: 700px;
+    bottom: 15px;
+    left: 15px;
+    width: 720px;
     height: 100px;
+    padding: 10px;
     background-color: #333;
-    opacity: 0.8;
-    border-radius: 12px;
+    opacity: 0.9;
+    border-radius: 8px;
+}
+
+.likes-hover img {
+    width: 80px;
+    height: 80px;
+}
+
+.likes-hover .title {
+    margin-left: 14px;
+    width: 536px; 
+    height: 100%;
+}
+.likes-hover .title h4 {
+    margin-top: 2px;
+    height: 32px;
+    line-height: 32px;
+    font-weight: normal;
+    font-size: 26px;
+    color: #fff;
+}
+.likes-hover .title h5 {
+    color: #b5b5b5;
+    font-size: 24px;
+    height: 32px;
+}
+
+.likes-hover .title h5  .likes-icon {
+    position: relative;
+    top: 6px;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background: url(../../../images/a41a9b3b0c7b20af96d3cacbfd8692c5.png) no-repeat;
+    background-size: 240px;
+    background-position: -2px -358px;
+}
+
+.likes-hover .likes-hover-arrow {
+    position: relative;
+    width: 54px;
+    height: 54px;
+    border-radius: 10px;
+    border: 1px solid #555;
+}
+
+.likes-hover .likes-hover-arrow::before, .likes-hover .likes-hover-arrow::after{
+    content: " ";
+    display: block;
+    position: absolute;
+    right: 13px;
+    width: 18px;
+    height: 18px;
+    border: 2px solid #777; /*no*/
+    transform: rotate(45deg);
+    border-left: none;
+    border-top: none;
+}
+
+.likes-hover .likes-hover-arrow::before {
+    bottom: 25px;
+    width: 16px;
+    height: 16px;
+}
+
+.likes-hover .likes-hover-arrow::after {
+    bottom: 12px;
 }

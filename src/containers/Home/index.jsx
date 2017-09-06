@@ -11,7 +11,7 @@ import HomeDiscount from '../../components/HomeDiscount'
 import HomeReduce from '../../components/HomeReduce'
 import Likes from '../../components/Likes'
 import LoadMore from '../../components/LoadMore'
-import HeadLine from '../../components/HeadLine'
+import HomeHeadLine from '../../components/HomeHeadLine'
 
 import * as ACTION from '../../actions/homeInfo'
 
@@ -44,13 +44,13 @@ class Home extends Component {
             <Loading /> : 
             homeInfo.likelist.data.length > 0 ? (
               <div>
-                <HeadLine list={homeInfo.headline}/>
+                <HomeHeadLine list={homeInfo.headline}/>
                 <HomeBanner />
                 <HomeAd list={homeInfo.rblist} className="home-rb"/>
                 <HomeAd list={homeInfo.adlist} className="home-advertisement"/>
                 <HomeDiscount list={homeInfo.discountlist} />
                 <HomeReduce list={homeInfo.reducelist} />
-                <Likes list={homeInfo.likelist.data}/>
+                <Likes list={homeInfo.likelist.data} isShowLikesHover={homeInfo.likelist.isShowLikesHover} hideLikesHover={this.props.hideLikesHover} />
                 <LoadMore hasMore={homeInfo.likelist.hasMore} 
                   isLoading={homeInfo.likelist.isLoading} 
                   loadMoreHandle={this.loadMoreHandle}/>   
@@ -68,7 +68,8 @@ const mapStateToProps = (state) => ({
 
 const mapDispatchToProps = (dispatch) => ({
   getHomeInfo: () => dispatch(ACTION.getHomeInfo()),
-  getLikes: (page) => dispatch(ACTION.getNewLikeList(page))
+  getLikes: (page) => dispatch(ACTION.getNewLikeList(page)),
+  hideLikesHover: () => dispatch(ACTION.hideLikesHover())
 })
 
 export default connect(
