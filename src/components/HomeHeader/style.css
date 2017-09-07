@@ -1,6 +1,10 @@
 .home-header {
+    position: fixed;
+    top:0;
+    z-index: 999999;
     display: flex;
     align-items: center;
+    width: 100%;
     height: 100px;
     background-color: rgb(255, 102, 51);
     color: #fff;
@@ -8,13 +12,28 @@
 }
 
 .home-header-left {
-    width: 140px;
+    width: 160px;
     text-align: center;
 }
 
 .home-header-left .city-name {
     font-size: 32px;
     color: #fff
+}
+.home-header-left .city-name span {
+    position: relative;
+    top: 4px;
+    display: inline-block;
+    width: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.home-header-left .city-name i {
+    position: relative;
+    top: -2px;
+    font-size: 36px;
+    margin-right: 10px;
 }
 
 .home-header-center {

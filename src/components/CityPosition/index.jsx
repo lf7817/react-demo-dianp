@@ -10,6 +10,7 @@ class CityPosition extends Component {
     this.showPosition = this.showPosition.bind(this)
     this.showErr = this.showErr.bind(this)
     this.position = this.position.bind(this)
+    this.clickHandle = this.clickHandle.bind(this)
     this.state = {
       addr: '',
       district: '',
@@ -27,7 +28,11 @@ class CityPosition extends Component {
   }
 
   position () {
-    this.geolocation.getLocation(this.showPosition, this.showErr, {failTipFlag: true})
+    this.setState({
+      isSuccess: true,
+      city: ''
+    })
+    this.geolocation.getLocation(this.showPosition, this.showErr, {timeout: 15000})
   }
 
   showPosition (position) {
@@ -41,16 +46,21 @@ class CityPosition extends Component {
     })
   }
 
+  clickHandle () {
+    const cityName = this.state.city 
+    this.props.setCity(cityName)
+  }
+
   render () {
     return (
       <div className="city-position">
         <div id="my-map" className="my-map"></div>
         {
-          !this.state.isSuccess ? <span className="positioning">定位失败</span> :
+          !this.state.isSuccess ? <span className="positioning" onClick={this.position}>无法获取您的位置，点击重试</span> :
             this.state.city !== '' ? 
             <div>
-              <span className="guess-city-name">{this.state.city}</span>
-              <span className="position-way">{this.state.type}定位</span>
+              <span className="guess-city-name" onClick={this.clickHandle}>{this.state.city}</span>
+              <span className="position-way" onClick={this.position}>点击重新定位</span>
             </div> : 
             <span className="positioning">定位中</span>
         }

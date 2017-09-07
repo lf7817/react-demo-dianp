@@ -39,6 +39,7 @@
     "react-lazyload": "^2.2.7",
     "react-redux": "^5.0.6",
     "react-router-dom": "^4.1.2",
+    "react-scroll": "^1.5.4",
     "react-swipe": "^5.0.8",
     "react-transition-group": "1.x",
     "redux": "^3.7.2",

@@ -15,7 +15,6 @@ class HomeHeader extends Component {
         <div className="home-header-left">
           <Link to="/city" className="city-name">
             <span>{this.props.cityName}</span>
-            &nbsp;
             <i className="icon-angle-down"></i>
           </Link>
         </div>

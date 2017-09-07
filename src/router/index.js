@@ -26,7 +26,7 @@ class RouterMap extends Component {
   componentDidMount () {
     let cityName = localStore.getItem(CITYNAME)
     if (cityName == null) {
-      cityName = '南京'
+      cityName = '上海'
     }
     this.props.homeInfoActions.setCity(cityName)
     this.setState({
