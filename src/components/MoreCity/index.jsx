@@ -5,6 +5,9 @@ import './style.css'
 
 let Link       = Scroll.Link;
 let Element    = Scroll.Element;
+var Events     = Scroll.Events;
+var scroll     = Scroll.animateScroll;
+var scrollSpy  = Scroll.scrollSpy;
 
 const Classify = (props) => (
   <div className="city-classify">
@@ -28,7 +31,9 @@ const CityNav = (props) => (
     <ul>
       {
         props.nav.cities.map((city, index) => 
-        <li key={index} onClick={() => props.clickHandle(city.city_name)}>{city.city_name}</li>
+        <li key={index} onClick={() => {
+          scroll.scrollToTop(0)
+          props.clickHandle(city.city_name)}}>{city.city_name}</li>
         )
       }
     </ul>
@@ -39,6 +44,21 @@ class MoreCity extends Component {
   constructor (props) {
     super(props)
     this.shouldComponentUpdate = PureRenderMixin.shouldComponentUpdate.bind(this)
+  }
+
+  componentDidMount () {
+    Events.scrollEvent.register('begin', function() {
+      console.log("begin", arguments);
+    });
+    Events.scrollEvent.register('end', function() {
+      console.log("end", arguments);
+    });
+    scrollSpy.update();
+  }
+
+  componentWillUnmount() {
+    Events.scrollEvent.remove('begin');
+    Events.scrollEvent.remove('end');
   }
   
   render () {
