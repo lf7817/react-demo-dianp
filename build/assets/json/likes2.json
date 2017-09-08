@@ -1,0 +1,349 @@
+{
+    "code": 200,
+    "msg": "success",
+    "data": {
+        "moduleInfoList": [{
+            "moduleName": "cnxh",
+            "version": "0",
+            "config": {
+                "bord": "true",
+                "hideWelfare": "false",
+                "showOverlay": "true",
+                "categoryType": "standard",
+                "mainwelfare_utm": "ulink_mainwelfare",
+                "mainwelfare_link_ios": "https://link.dianping.com/universal-link?originalUrl=http%3A%2F%2Fevt.dianping.com%2Fsynthesislink%2F10765.html&schema=dianping%3A%2F%2Fweb%3Furl%3Dhttps%253A%252F%252Fh5.dianping.com%252Fapp%252Fdaily-benefits%252Fstatic%252Findex.html%2523%252Findex%253Futm_source%253DMcnxh",
+                "mainwelfare_link_android": "http://evt.dianping.com/synthesislink/10765.html"
+            },
+            "query": {
+                "startNum": "3"
+            },
+            "lat": "31.948808599999996",
+            "lng": "118.8902619",
+            "moduleData": {
+                "code": 200,
+                "msg": "success",
+                "data": {
+                    "startNum": 3,
+                    "overSea": false,
+                    "totalNum": 132,
+                    "searchQueryId": "b755a104-c778-4669-875f-9753ff5d9492",
+                    "guessYouVoList": [{
+                        "shopName": "山西人家",
+                        "dealgroupid": "26780033",
+                        "dealGroupTitle": "[珠江路沿线] 西红柿鸡蛋刀削面1份",
+                        "dealgroupPrice": "2.99",
+                        "marketPrice": "16",
+                        "saleDesc": "",
+                        "shopId": "",
+                        "defaultPic": "https://p1.meituan.net/deal/9f64a5f34654cd8efb6e113a85a86c2e28145.jpg%40180w_180h_1e_1c_1l_80q%7Cwatermark%3D0",
+                        "item_type": "standard",
+                        "distance": null,
+                        "tgcurrentjoin": "329",
+                        "recreason": null,
+                        "needpromocall": "true",
+                        "tgrate": "0.0",
+                        "pictag": {
+                            "tag": "免预约",
+                            "color": "#e5bf86"
+                        },
+                        "itemtag": {
+                            "tag": "",
+                            "color": "#FFF"
+                        },
+                        "promovalue": "",
+                        "priceexplain": "",
+                        "priceextrainfo": "",
+                        "salesdesc": "已售329",
+                        "biz_id": "0",
+                        "item_type_self": "tuan",
+                        "schema": "https://m.dianping.com/tuan/deal/26780033",
+                        "discountList": []
+                    }, {
+                        "shopName": "初味紫砂烤梨",
+                        "dealgroupid": "26073686",
+                        "dealGroupTitle": "[2店通用] 特色现酿酸奶2选1",
+                        "dealgroupPrice": "3.88",
+                        "marketPrice": "20",
+                        "saleDesc": "",
+                        "shopId": "",
+                        "defaultPic": "https://p1.meituan.net/deal/0f4c5329f09bf4ad63119860d6159ad792394.jpg%40180w_180h_1e_1c_1l_80q%7Cwatermark%3D0",
+                        "item_type": "standard",
+                        "distance": null,
+                        "tgcurrentjoin": "342",
+                        "recreason": null,
+                        "needpromocall": "true",
+                        "tgrate": "0.0",
+                        "pictag": {
+                            "tag": "免预约",
+                            "color": "#e5bf86"
+                        },
+                        "itemtag": {
+                            "tag": "",
+                            "color": "#FFF"
+                        },
+                        "promovalue": "",
+                        "priceexplain": "",
+                        "priceextrainfo": "",
+                        "salesdesc": "已售342",
+                        "biz_id": "0",
+                        "item_type_self": "tuan",
+                        "schema": "https://m.dianping.com/tuan/deal/26073686",
+                        "discountList": []
+                    }, {
+                        "shopName": "魅都主题影吧",
+                        "dealgroupid": "22433572",
+                        "dealGroupTitle": "[2店通用] 1-4人一小时特惠观影",
+                        "dealgroupPrice": "8.8",
+                        "marketPrice": "78",
+                        "saleDesc": "",
+                        "shopId": "",
+                        "defaultPic": "https://p0.meituan.net/dpdeal/6b588cd71d7cd0543456c557f98ae1d33828178.jpg%40180w_180h_1e_1c_1l_80q%7Cwatermark%3D0",
+                        "item_type": "standard",
+                        "distance": null,
+                        "tgcurrentjoin": "6459",
+                        "recreason": null,
+                        "needpromocall": "true",
+                        "tgrate": "0.0",
+                        "pictag": {
+                            "tag": "免预约",
+                            "color": "#e5bf86"
+                        },
+                        "itemtag": {
+                            "tag": "",
+                            "color": "#FFF"
+                        },
+                        "promovalue": "买10份减2元",
+                        "priceexplain": "",
+                        "priceextrainfo": "",
+                        "salesdesc": "已售6459",
+                        "biz_id": "0",
+                        "item_type_self": "tuan",
+                        "schema": "https://m.dianping.com/tuan/deal/22433572",
+                        "discountList": [],
+                        "discountTag": "买10份减2元"
+                    }, {
+                        "shopName": "水木晶华 韩式汗蒸温泉",
+                        "dealgroupid": "22689416",
+                        "dealGroupTitle": "[弘阳广场/新一城] 单人洗浴汗蒸 浴资券1张",
+                        "dealgroupPrice": "59",
+                        "marketPrice": "119",
+                        "saleDesc": "",
+                        "shopId": "",
+                        "defaultPic": "https://p0.meituan.net/dpdeal/9f5f6aed48aca76f06fd42a0b87bfdd42004564.jpg%40180w_180h_1e_1c_1l_80q%7Cwatermark%3D0",
+                        "item_type": "standard",
+                        "distance": null,
+                        "tgcurrentjoin": "13454",
+                        "recreason": null,
+                        "needpromocall": "true",
+                        "tgrate": "0.0",
+                        "pictag": {
+                            "tag": "免预约",
+                            "color": "#e5bf86"
+                        },
+                        "itemtag": {
+                            "tag": "",
+                            "color": "#FFF"
+                        },
+                        "promovalue": "休闲娱乐团购新用户减6元",
+                        "priceexplain": "",
+                        "priceextrainfo": "",
+                        "salesdesc": "已售13454",
+                        "biz_id": "0",
+                        "item_type_self": "tuan",
+                        "schema": "https://m.dianping.com/tuan/deal/22689416",
+                        "discountList": [],
+                        "discountTag": "休闲娱乐团购新用户减6元"
+                    }, {
+                        "shopName": "臻牛潮汕牛肉火锅",
+                        "dealgroupid": "26574033",
+                        "dealGroupTitle": "[瑞金路沿线] 100元冰凉一夏代金券1张",
+                        "dealgroupPrice": "38",
+                        "marketPrice": "100",
+                        "saleDesc": "",
+                        "shopId": "",
+                        "defaultPic": "https://p1.meituan.net/deal/6c9e8512ba01c10bdc0d5ab28a8e74fd108675.jpg%40180w_180h_1e_1c_1l_80q%7Cwatermark%3D0",
+                        "item_type": "standard",
+                        "distance": null,
+                        "tgcurrentjoin": "1158",
+                        "recreason": null,
+                        "needpromocall": "true",
+                        "tgrate": "0.0",
+                        "pictag": {
+                            "tag": "免预约",
+                            "color": "#e5bf86"
+                        },
+                        "itemtag": {
+                            "tag": "",
+                            "color": "#FFF"
+                        },
+                        "promovalue": "",
+                        "priceexplain": "",
+                        "priceextrainfo": "",
+                        "salesdesc": "已售1158",
+                        "biz_id": "0",
+                        "item_type_self": "tuan",
+                        "schema": "https://m.dianping.com/tuan/deal/26574033",
+                        "discountList": []
+                    }, {
+                        "shopName": "星聚星主题影吧（德基广场店）",
+                        "dealgroupid": "22216707",
+                        "dealGroupTitle": "[新街口地区] 1-4人1小时特惠观影",
+                        "dealgroupPrice": "8",
+                        "marketPrice": "58",
+                        "saleDesc": "",
+                        "shopId": "",
+                        "defaultPic": "https://p1.meituan.net/dpdeal/05d3e7877411a35a68c1bd47ef14fc20117090.jpg%40180w_180h_1e_1c_1l_80q%7Cwatermark%3D0",
+                        "item_type": "standard",
+                        "distance": null,
+                        "tgcurrentjoin": "6593",
+                        "recreason": null,
+                        "needpromocall": "true",
+                        "tgrate": "0.0",
+                        "pictag": {
+                            "tag": "免预约",
+                            "color": "#e5bf86"
+                        },
+                        "itemtag": {
+                            "tag": "",
+                            "color": "#FFF"
+                        },
+                        "promovalue": "减4元",
+                        "priceexplain": "",
+                        "priceextrainfo": "",
+                        "salesdesc": "已售6593",
+                        "biz_id": "0",
+                        "item_type_self": "tuan",
+                        "schema": "https://m.dianping.com/tuan/deal/22216707",
+                        "discountList": [],
+                        "discountTag": "减4元"
+                    }, {
+                        "shopName": "蓉府火锅",
+                        "dealgroupid": "26621794",
+                        "dealGroupTitle": "[夫子庙地区] 100元蓉府火锅七夕特惠代金券1张",
+                        "dealgroupPrice": "7.7",
+                        "marketPrice": "100",
+                        "saleDesc": "",
+                        "shopId": "",
+                        "defaultPic": "https://p1.meituan.net/deal/0bc5db3f816090fea1a084c0b7264b0061169.jpg%40180w_180h_1e_1c_1l_80q%7Cwatermark%3D0",
+                        "item_type": "standard",
+                        "distance": null,
+                        "tgcurrentjoin": "204",
+                        "recreason": null,
+                        "needpromocall": "true",
+                        "tgrate": "0.0",
+                        "pictag": {
+                            "tag": "免预约",
+                            "color": "#e5bf86"
+                        },
+                        "itemtag": {
+                            "tag": "",
+                            "color": "#FFF"
+                        },
+                        "promovalue": "",
+                        "priceexplain": "",
+                        "priceextrainfo": "",
+                        "salesdesc": "已售204",
+                        "biz_id": "0",
+                        "item_type_self": "tuan",
+                        "schema": "https://m.dianping.com/tuan/deal/26621794",
+                        "discountList": []
+                    }, {
+                        "shopName": "大脸鸡排",
+                        "dealgroupid": "21579181",
+                        "dealGroupTitle": "[33店通用] 大脸鸡排饮料套餐，建议单人使用",
+                        "dealgroupPrice": "16.5",
+                        "marketPrice": "21",
+                        "saleDesc": "",
+                        "shopId": "",
+                        "defaultPic": "https://p0.meituan.net/deal/f2aedb7096dd18d25ee804ba95bfed9f27265.jpg%40180w_180h_1e_1c_1l_80q%7Cwatermark%3D0",
+                        "item_type": "standard",
+                        "distance": null,
+                        "tgcurrentjoin": "2795",
+                        "recreason": null,
+                        "needpromocall": "true",
+                        "tgrate": "0.0",
+                        "pictag": {
+                            "tag": "免预约",
+                            "color": "#e5bf86"
+                        },
+                        "itemtag": {
+                            "tag": "",
+                            "color": "#FFF"
+                        },
+                        "promovalue": "",
+                        "priceexplain": "",
+                        "priceextrainfo": "",
+                        "salesdesc": "已售2795",
+                        "biz_id": "0",
+                        "item_type_self": "tuan",
+                        "schema": "https://m.dianping.com/tuan/deal/21579181",
+                        "discountList": []
+                    }, {
+                        "shopName": "蜀大侠火锅",
+                        "dealgroupid": "26578180",
+                        "dealGroupTitle": "[江宁科学园] 100元大侠迎秋特惠代金券1张",
+                        "dealgroupPrice": "36.8",
+                        "marketPrice": "100",
+                        "saleDesc": "",
+                        "shopId": "",
+                        "defaultPic": "https://p1.meituan.net/deal/22f674375a4b545f1353f255ce00a66412548.jpg%40180w_180h_1e_1c_1l_80q%7Cwatermark%3D0",
+                        "item_type": "standard",
+                        "distance": null,
+                        "tgcurrentjoin": "213",
+                        "recreason": null,
+                        "needpromocall": "true",
+                        "tgrate": "0.0",
+                        "pictag": {
+                            "tag": "免预约",
+                            "color": "#e5bf86"
+                        },
+                        "itemtag": {
+                            "tag": "",
+                            "color": "#FFF"
+                        },
+                        "promovalue": "",
+                        "priceexplain": "",
+                        "priceextrainfo": "",
+                        "salesdesc": "已售213",
+                        "biz_id": "0",
+                        "item_type_self": "tuan",
+                        "schema": "https://m.dianping.com/tuan/deal/26578180",
+                        "discountList": []
+                    }, {
+                        "shopName": "江南小镇无锡小笼包",
+                        "dealgroupid": "9333585",
+                        "dealGroupTitle": "[12店通用] 10元代金券1张，可叠加",
+                        "dealgroupPrice": "8.9",
+                        "marketPrice": "10",
+                        "saleDesc": "",
+                        "shopId": "",
+                        "defaultPic": "https://p0.meituan.net/deal/9f8e6d58ffb6b96ebe6d72a0ba6c140293026.jpg%40180w_180h_1e_1c_1l_80q%7Cwatermark%3D0",
+                        "item_type": "standard",
+                        "distance": null,
+                        "tgcurrentjoin": "70964",
+                        "recreason": null,
+                        "needpromocall": "true",
+                        "tgrate": "0.98",
+                        "pictag": {
+                            "tag": "免预约",
+                            "color": "#e5bf86"
+                        },
+                        "itemtag": {
+                            "tag": "",
+                            "color": "#FFF"
+                        },
+                        "promovalue": "",
+                        "priceexplain": "",
+                        "priceextrainfo": "",
+                        "salesdesc": "已售70964",
+                        "biz_id": "0",
+                        "item_type_self": "tuan",
+                        "schema": "https://m.dianping.com/tuan/deal/9333585",
+                        "discountList": []
+                    }],
+                    "mainwelfareUrl": "https://link.dianping.com/universal-link?originalUrl=http%3A%2F%2Fevt.dianping.com%2Fsynthesislink%2F10765.html&schema=dianping%3A%2F%2Fweb%3Furl%3Dhttps%253A%252F%252Fh5.dianping.com%252Fapp%252Fdaily-benefits%252Fstatic%252Findex.html%2523%252Findex%253Futm_source%253DMcnxh"
+                }
+            }
+        }]
+    }
+}
