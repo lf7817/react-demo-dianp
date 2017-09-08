@@ -7,12 +7,13 @@ import {
 import PureRenderMixin from 'react-addons-pure-render-mixin'
 import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
-import localStore from '../utils/localStore'
-import { CITYNAME } from '../constants/localStoreKey'
-import * as homeInfoActionFromOtherFile from '../redux/actions/homeInfo'
+import localStore from '@/utils/localStore'
+import { CITYNAME } from 'constants/localStoreKey'
+import * as homeInfoActionFromOtherFile from 'actions/homeInfo'
+import asyncComponent from 'components/AsyncComponent'
 
-import Home from '../containers/Home'
-import City from '../containers/City'
+const AsyncHome = asyncComponent(() => import('@/containers/Home'))
+const AsyncCity = asyncComponent(() => import('@/containers/City'))
 
 class RouterMap extends Component {
   constructor (props) {
@@ -37,8 +38,8 @@ class RouterMap extends Component {
   render () {
     const routes = (
       <Switch>
-        <Route path="/" exact component={Home} />
-        <Route path="/city" exact component={City} />
+        <Route path="/" exact component={AsyncHome} />
+        <Route path="/city" exact component={AsyncCity} />
       </Switch>
     )
     

@@ -10,8 +10,8 @@ import HomeDiscount from './HomeDiscount'
 import HomeReduce from './HomeReduce'
 import Likes from './Likes'
 
-import Loading from '../Loading'
-import LoadMore from '../LoadMore'
+import Loading from 'components/Loading'
+import LoadMore from 'components/LoadMore'
 
 class Home extends Component {
   constructor(props) {

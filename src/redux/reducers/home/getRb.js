@@ -1,4 +1,4 @@
-import * as actionTypes from '../../../constants/homeInfo'
+import * as actionTypes from 'constants/homeInfo'
 
 const getRb = (state = [], action) => {
   switch (action.type) {

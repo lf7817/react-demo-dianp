@@ -7,6 +7,26 @@ class CityNav extends Component {
   constructor (props) {
     super(props)
     this.shouldComponentUpdate = PureRenderMixin.shouldComponentUpdate.bind(this)
+    this.clickHandle = this.clickHandle.bind(this)
+    this.showMore = this.showMore.bind(this)
+    this.state = {
+      isShowMore: false
+    }
+  }
+
+  componentDidMount () {
+
+  }
+
+  clickHandle (cityName) {
+    scroll.scrollToTop()
+    this.props.clickHandle(cityName)
+  }
+
+  showMore () {
+    this.setState({
+      isShowMore: true
+    })
   }
 
   render () {
@@ -16,12 +36,23 @@ class CityNav extends Component {
         <h2 className="title">{nav.idx}</h2>
         <ul>
           {
-            nav.cities.map((city, index) => {
-              return <li key={index} onClick={() => {
-                scroll.scrollToTop()
-                this.props.clickHandle(city.city_name)
-              }}>{city.city_name}</li>
-            })
+            nav.cities.reduce((arr, city, index) => {
+              if (index < 20) {
+                arr.push(<li key={index} onClick={() => this.clickHandle(city.city_name)}>{city.city_name}</li>)
+              }
+              return arr
+            }, [])
+          }
+          {
+            nav.cities.length >= 20 ?
+              this.state.isShowMore ?
+                nav.cities.reduce((arr, city, index) => {
+                  if (index >= 20) {
+                    arr.push(<li key={index} onClick={() => this.clickHandle(city.city_name)}>{city.city_name}</li>)
+                  }
+                  return arr
+                }, []) : <li onClick={this.showMore}>更多</li>
+              : null
           }
         </ul>
       </Element>

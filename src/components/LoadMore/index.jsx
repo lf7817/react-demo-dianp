@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import PureRenderMixin from 'react-addons-pure-render-mixin'
-import throttle from '../../utils/throttle'
+import throttle from '@/utils/throttle'
 import './style.css'
 
 class LoadMore extends Component {

@@ -1,4 +1,4 @@
-import * as actionTypes from '../../../constants/homeInfo'
+import * as actionTypes from 'constants/homeInfo'
 
 const setCity = (state = '北京', action) => {
   switch (action.type) {

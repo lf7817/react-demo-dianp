@@ -1,6 +1,6 @@
 import { connect } from 'react-redux'
-import City from '../../components/City'
-import * as ACTION from '../../redux/actions/homeInfo'
+import City from 'components/City'
+import * as ACTION from 'actions/homeInfo'
 
 const mapStateToProps = (state) => ({
 

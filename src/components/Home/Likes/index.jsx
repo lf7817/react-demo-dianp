@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import PureRenderMixin from 'react-addons-pure-render-mixin'
-import LikeItem from './LikeItem/index'
-import LikeHover from './LikeHover/index'
+import LikeItem from './LikeItem'
+import LikeHover from './LikeHover'
 import { CSSTransitionGroup } from 'react-transition-group'
 import './style.css'
 

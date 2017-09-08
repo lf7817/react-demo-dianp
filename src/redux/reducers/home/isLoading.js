@@ -1,4 +1,4 @@
-import * as actionTypes from '../../../constants/homeInfo'
+import * as actionTypes from 'constants/homeInfo'
 
 const isLoading = (isLoading = false, action) => {
   switch (action.type) {

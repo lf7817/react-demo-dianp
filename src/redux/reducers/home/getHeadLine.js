@@ -1,4 +1,4 @@
-import * as actionTypes from '../../../constants/homeInfo'
+import * as actionTypes from 'constants/homeInfo'
 
 const getDiscount = (state = [], action) => {
   switch (action.type) {

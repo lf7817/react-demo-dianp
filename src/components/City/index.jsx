@@ -6,10 +6,10 @@ import CityPosition from './CityPosition'
 import HotCity from './HotCity'
 import MoreCity from './MoreCity'
 
-import localStore from '../../utils/localStore'
-import { CITYNAME } from '../../constants/localStoreKey'
+import localStore from '@/utils/localStore'
+import { CITYNAME } from 'constants/localStoreKey'
 import axios from 'axios'
-import HOST from '../../constants/host'
+import HOST from 'constants/host'
 
 class City extends Component {
   constructor (props) {

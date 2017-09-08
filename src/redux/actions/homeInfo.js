@@ -1,6 +1,6 @@
-import * as actionTyps from '../../constants/homeInfo'
+import * as actionTyps from 'constants/homeInfo'
 import axios from 'axios'
-import HOST from '../../constants/host'
+import HOST from 'constants/host'
 
 export const setCity = (cityName) => ({
   type: actionTyps.USER_SET_CITY,

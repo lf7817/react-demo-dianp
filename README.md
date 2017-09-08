@@ -88,6 +88,22 @@ plugins: () => [
 ```
 默认设计稿为750，默认dpr为2，自动转换rem ，具体查看[API](https://www.npmjs.com/package/postcss-adaptive)
 
+# 修改alias
+```
+// config\webpack.config.dev.js 和 config\webpack.config.prod.js
+resolve: {
+    ...
+    alias: {
+      '@': resolve('src'),
+      'components': resolve('src/components'),
+      'constants': resolve('src/constants'),
+      'actions': resolve('src/redux/actions'),
+      // Support React Native Web
+      // https://www.smashingmagazine.com/2016/08/a-glimpse-into-the-future-with-react-native-for-web/
+      'react-native': 'react-native-web',
+    },
+}
+```
 # 定位
 定位采用腾讯地图，因为人家支持HTTPS，chrome和ios最新版不支持http
 
@@ -105,7 +121,15 @@ module.exports = {
 import qq from 'qq'
 ```
 
-# changes
+# notes
++ 2017-09-08 
+    - 这段时间栽跟头了受伤了。。。继续写。。。
+    - 首页“点评头条”组件增加过渡效果，采用react-transition-group（安装时要注意，本代码采用@1.x版本，yarn add react-transition-group@1.x）
+    - 城市组件增加定位组件，采用腾讯地图接口，因为chrome和IOS新版本都禁止在http下定位，只有腾讯地图支持https
+    - 增加更多城市组件，点击首字母，跳转到相应列表
+    - 列表过长，每一项改为最多显示20个城市，点击更多按钮，显示完整列表
+    - 重新整理目录结构
+    - 按需加载组件
 + 2017-08-27
     - 修复loadMore组件bug，销毁组件时，注销scroll事件写错了，导致重复注册scroll事件
     - 修复Likes组件bug,从其它页面切回Home组件时，会去加载第一页列表，导致store中状态改变，重复加载列表，这里修改加载条件，当列表为空才去加载
