@@ -1,0 +1,148 @@
+.home-cateory {
+    margin-top: 100px;
+    background: #ffffff url("../../../assets/images/a07db57c79f2a8ec1ecbb761520ba1a2.png") no-repeat;
+    background-size: 100% auto;
+    /* margin-bottom: 20px; */
+}
+
+.carousel-item ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    list-style: none;
+    padding-top: 44px;
+}
+
+.carousel-item ul li {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    width: 138px;
+    height: 148px;
+}
+
+.carousel-item ul li span {
+    text-align: center;
+    color: #323232;
+    font-size: 24px;
+}
+
+.carousel-item ul li i {
+    display: block;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: 90px auto;
+    background-position: top center;
+    background-color: #eee;
+    margin-bottom: 10px;
+}
+.carousel-index {
+    text-align: center;
+    padding-bottom: 24px;
+}
+.carousel-index span {
+    display: inline-block;
+    margin: 0 10px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #eee;
+}
+.carousel-index span.active {
+    background-color: rgb(233, 32, 61);
+}
+
+.item-life-service {
+    background-image: url(../../../assets/images/category/20170308125500community_new.png);
+}
+.item-tourist {
+    background-image: url(../../../assets/images/category/20160126205135jingguan.png);
+}
+.item-aiche {
+    background-image: url(../../../assets/images/category/20160126203742aiche.png);
+}
+.item-sport {
+    background-image: url(../../../assets/images/category/20160126203617jianshen.png);
+}
+.item-buy {
+    background-image: url(../../../assets/images/category/20160314121215icongouwu135.png);
+}
+.item-children {
+    background-image: url(../../../assets/images/category/20160126203905qinzi.png);
+}
+.item-furniture {
+    background-image: url(../../../assets/images/category/20161213162031zhuangxiu.png);
+}
+.item-study {
+    background-image: url(../../../assets/images/category/1455525720807.png);
+}
+.item-health {
+    background-image: url(../../../assets/images/category/20160126204327yiliao.png    );
+}
+.item-home {
+    background-image: url(../../../assets/images/category/20160126203812daojia.png);
+}
+
+.item-food {
+    background-image: url(../../../assets/images/category/20160126194705meishi.png);
+}
+.item-movie {
+    background-image: url(../../../assets/images/category/20170223152109dp_wx_maoyan_icon.png);
+}
+.item-hotel {
+    background-image: url(../../../assets/images/category/20160126203337jiudian.png);
+}
+.item-entertainment {
+    background-image: url(../../../assets/images/category/20160126202841xiuxianyule.png);
+}
+.item-take-out-food {
+    background-image: url(../../../assets/images/category/20160126203251waimai.png);
+}
+.item-hot-pot {
+    background-image: url(../../../assets/images/category/20160204172927huoguo.png);
+}
+.item-beauty {
+    background-image: url(../../../assets/images/category/20160126202946liren.png);
+}
+.item-around {
+    background-image: url(../../../assets/images/category/20160126203440zhoubianyou.png);
+}
+.item-ktv {
+    background-image: url(../../../assets/images/category/20160126203542ktv.png);
+}
+.item-hunshasheying {
+    background-image: url(../../../assets/images/category/20160126203830jiehun.png);
+}
+
+.item-xiaochi {
+    background-image: url(../../../assets/images/category/20160204173331xiaochikuaican.png);
+}
+.item-zizhu {
+    background-image: url(../../../assets/images/category/20160204173511zizhucan.png);
+}
+.item-tokyo-food {
+    background-image: url(../../../assets/images/category/20160415121719rihanliaoli.png);
+}
+.item-hair {
+    background-image: url(../../../assets/images/category/20160316142804meifa.png);
+}
+.item-meijiameitong {
+    background-image: url(../../../assets/images/category/20160316143047meijia.png);
+}
+.item-spa {
+    background-image: url(../../../assets/images/category/20160316143239meirong.png);
+}
+.item-shoushen {
+    background-image: url(../../../assets/images/category/20160316143316shoushen.png);
+}
+.item-qinzisheying {
+    background-image: url(../../../assets/images/category/20160316143612qinzisheying.png);
+}
+.item-qinziyoule {
+    background-image: url(../../../assets/images/category/20160316143656qinziyoule.png);
+}
+.item-all-category {
+    background-image: url(../../../assets/images/category/20160125182200more.png);
+}

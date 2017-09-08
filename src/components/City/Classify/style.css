@@ -1,0 +1,19 @@
+.city-classify li {
+    box-sizing: border-box;
+    width: 150px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    color: #323232;
+    overflow: hidden;
+    font-size: 32px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    border-bottom: 1px solid #ededed;
+    border-right: 1px solid #ededed;
+    padding: 0 14px;
+}
+.city-classify li a {
+    font-family: 'Arial';
+    font-size: 32px;
+}

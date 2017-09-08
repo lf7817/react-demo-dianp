@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom'
 import App from './App'
 import registerServiceWorker from './registerServiceWorker'
 // import 'amfe-flexible'
-import './style/common.css'
-import './style/fonts/font.css'
+import './assets/style/common.css'
+import './assets/style/font.css'
 
 ReactDOM.render(<App />, document.getElementById('root'))
 registerServiceWorker()

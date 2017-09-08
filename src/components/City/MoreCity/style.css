@@ -1,0 +1,18 @@
+.more-city .title {
+  line-height: 60px;
+  font-size: 28px;
+  font-weight: 700;
+  text-indent: 20px;
+  color: #323232;
+}
+
+.more-city ul {
+  display: flex;
+  flex-flow: row wrap;
+  list-style: none;
+  background: #fff;
+}
+
+
+
+
