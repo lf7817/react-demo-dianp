@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {Element, animateScroll as scroll} from 'react-scroll'
+import { Element } from 'react-scroll'
 import PureRenderMixin from 'react-addons-pure-render-mixin'
 import './style.css'
 
@@ -14,12 +14,7 @@ class CityNav extends Component {
     }
   }
 
-  componentDidMount () {
-
-  }
-
   clickHandle (cityName) {
-    scroll.scrollToTop()
     this.props.clickHandle(cityName)
   }
 

@@ -56,8 +56,8 @@ const receiveLikes = (data) => ({
 
 
 
-export const getNewLikeList = (page) => {
-  return async dispatch => {
+export const getNewLikeList = (page) => (
+  async dispatch => {
     dispatch(requestLikes(page))
     try {
       const res = await axios(`${HOST}/assets/json/likes${page}.json`)
@@ -67,7 +67,7 @@ export const getNewLikeList = (page) => {
 
     }
   }
-}
+)
 
 const getLikes = (data) => ({
   type: actionTyps.GET_LIKES,
@@ -78,8 +78,8 @@ export const hideLikesHover = () => ({
   type: actionTyps.HIDE_LIKES_HOVER
 })
 
-export const getHomeInfo = () => {
-  return async dispatch => {
+export const getHomeInfo = () => (
+  async dispatch => {
     dispatch(requestHomeInfo())
     try {
       const res = await axios(`${HOST}/assets/json/homeInfo.json`)
@@ -101,7 +101,7 @@ export const getHomeInfo = () => {
       dispatch(requestHomeInfoFailure())
     }
   }
-}
+)
 
 const analyse = (moduleInfoList) => {
   return moduleInfoList.reduce((obj, module) => {

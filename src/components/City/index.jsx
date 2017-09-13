@@ -25,6 +25,7 @@ class City extends Component {
     this.requestCity()
   }
 
+
   async requestCity () {
     const res = await axios(`${HOST}/assets/json/city.json`)
     this.setState({

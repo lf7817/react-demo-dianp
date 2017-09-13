@@ -11,9 +11,13 @@ import localStore from '@/utils/localStore'
 import { CITYNAME } from 'constants/localStoreKey'
 import * as homeInfoActionFromOtherFile from 'actions/homeInfo'
 import asyncComponent from 'components/AsyncComponent'
+import ScrollToTop from 'components/ScrollToTop'
+
+import './style.css'
 
 const AsyncHome = asyncComponent(() => import('@/containers/Home'))
 const AsyncCity = asyncComponent(() => import('@/containers/City'))
+const AsyncHeadLine = asyncComponent(() => import('@/containers/HeadLine'))
 
 class RouterMap extends Component {
   constructor (props) {
@@ -36,18 +40,15 @@ class RouterMap extends Component {
   }
 
   render () {
-    const routes = (
-      <Switch>
-        <Route path="/" exact component={AsyncHome} />
-        <Route path="/city" exact component={AsyncCity} />
-      </Switch>
-    )
-    
     return (
       <Router>
-        {
-          this.state.initDone ? routes : <div>加载中...</div>
-        }
+        <ScrollToTop>
+          <Switch>
+            <Route path="/" exact component={AsyncHome} />
+            <Route path="/city" component={AsyncCity} />
+            <Route path="/headLine" component={AsyncHeadLine} />
+          </Switch>
+        </ScrollToTop>
       </Router>
     )
   }

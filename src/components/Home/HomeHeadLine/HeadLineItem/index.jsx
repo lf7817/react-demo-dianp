@@ -1,6 +1,6 @@
 import  React, { Component } from 'react'
 import PureRenderMixin from 'react-addons-pure-render-mixin'
-
+import { Link } from 'react-router-dom'
 class HeadLineItem extends Component {
   constructor (props) {
     super(props)
@@ -10,11 +10,11 @@ class HeadLineItem extends Component {
   render () {
     const { item } = this.props
     return (
-      <a className="item" href={item.url}>
+      <Link className="item" to='/headLine'>
         <p>{item.title}</p>
         <img src={item.pic} alt={item.title} />
         <span className="img-num">{item.picCount}</span>
-      </a>
+      </Link>
     )
   }
 }
