@@ -23,7 +23,7 @@
     height: 40px;
     margin-left: 220px;
     /*margin: 0 auto;*/
-    background-image: url(//www.dpfile.com/app/h5-ranklist-static/static/titlebar.png);
+    background-image: url(../../../assets/images/titlebar.png);
     background-repeat: no-repeat;
     background-size: cover;
 }

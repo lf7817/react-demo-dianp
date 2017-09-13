@@ -122,6 +122,7 @@ import qq from 'qq'
 ```
 
 # notes
++ 2017-09-13 添加点评头条HeadLine组件
 + 2017-09-08 
     - 这段时间栽跟头了受伤了。。。继续写。。。
     - 首页“点评头条”组件增加过渡效果，采用react-transition-group（安装时要注意，本代码采用@1.x版本，yarn add react-transition-group@1.x）
