@@ -3,7 +3,10 @@ import './style.css'
 
 const Header = (props) => (
   <div className="city-header">
-    <span onClick={() => window.history.back()}>
+    <span onClick={() => {
+      props.setAnimate('right')
+      window.history.back()
+    }}>
       <i className="icon-chevron-left"></i>
     </span>
     <div>

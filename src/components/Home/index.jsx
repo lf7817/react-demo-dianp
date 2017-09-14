@@ -18,9 +18,11 @@ class Home extends Component {
     super(props)
     this.shouldComponentUpdate = PureRenderMixin.shouldComponentUpdate.bind(this)
     this.loadMoreHandle = this.loadMoreHandle.bind(this)
+    this.setAnimate = this.setAnimate.bind(this)
   }
 
   componentDidMount () {
+    console.log('home')
     const homeInfo = this.props.homeInfo
     if (homeInfo.rblist.length === 0) {
       this.props.getHomeInfo()
@@ -31,11 +33,16 @@ class Home extends Component {
     const likelist = this.props.homeInfo.likelist
     this.props.getLikes(likelist.page)
   }
+
+  setAnimate (cls) {
+    this.props.setRouterAnimate(cls)
+  }
+
   render() {
     const homeInfo = this.props.homeInfo
     return (
       <div>
-        <HomeHeader cityName={homeInfo.cityName} />
+        <HomeHeader cityName={homeInfo.cityName} setAnimate={this.setAnimate}/>
         <Category />
         {
           homeInfo.isLoading === true ?

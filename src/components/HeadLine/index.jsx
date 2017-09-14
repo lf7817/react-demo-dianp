@@ -14,6 +14,7 @@ class HeadLine extends Component {
   }
 
   componentDidMount () {
+    console.log('headline')
     if (this.props.headLineList.length === 0) {
       this.props.getHeadLineList()
     }

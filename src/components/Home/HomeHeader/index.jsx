@@ -13,7 +13,7 @@ class HomeHeader extends Component {
     return (
       <div className="home-header">
         <div className="home-header-left">
-          <Link to="/city" className="city-name">
+          <Link to="/city" className="city-name" onClick={() => this.props.setAnimate('left')}>
             <span>{this.props.cityName}</span>
             <i className="icon-angle-down"></i>
           </Link>

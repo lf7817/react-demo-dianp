@@ -1,0 +1,24 @@
+.like-detail-header {
+    width: 100%;
+    height: 90px;
+    line-height: 90px;
+    background-color: #eee;
+    color: #333;
+    font-size: 28px;
+}
+
+.like-detail-header .back {
+    margin-left: 20px;
+}
+.like-detail-header .back i {
+    position: relative;
+    top: 6px;
+    color: #666;
+    font-size: 36px;
+    margin-right: 8px;
+}
+
+.like-detail-header .title {
+    margin-left: 200px;
+    font-size: 32px;
+}

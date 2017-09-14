@@ -1,0 +1,77 @@
+.like-detail-cost {
+    margin-bottom: 20px;
+}
+.like-detail-cost .bug-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 0 20px;
+    background: #fff;
+}
+
+.like-detail-cost .bug-wrap .bug {
+    width: 210px;
+    height: 68px;
+    line-height: 68px;
+    border-radius: 10px;
+    background-color: #f63;
+    color: #fff;
+    font-size: 32px;
+    text-align: center;
+}
+
+.like-detail-cost .bug-wrap .n-price {
+    font-family:'PingFang SC', 'STHeitiSC-Light', 'Helvetica-Light', arial, sans-serif, 'Droid Sans Fallback';
+    color: #f63;
+    font-size: 54px;
+    margin-right: 20px;
+}
+.like-detail-cost .bug-wrap .n-price i {
+    font-size: 36px;
+    font-style: normal;
+}
+
+.like-detail-cost .bug-wrap .o-price {
+    font-family:'PingFang SC', 'STHeitiSC-Light', 'Helvetica-Light', arial, sans-serif, 'Droid Sans Fallback';
+    color: #8c8c8c;
+    font-size: 28px;
+    margin-right: 10px;
+    text-decoration: line-through;
+}
+.like-detail-cost .bug-wrap .o-price i {
+    font-size: 28px;
+    font-style: normal;
+}
+
+.like-detail-cost .advantage {
+    display: flex;
+    width: 100%;
+    height: 90px;
+    line-height: 90px;
+    list-style: none;
+    background: #fff;
+    padding-left: 20px;
+    border-top: 1px solid #eee;
+
+}
+.like-detail-cost .advantage li {
+    flex: 1;
+}
+
+.like-detail-cost .easy-Refunds,  .like-detail-cost .dated-Refunds{
+    position: relative;
+    top: 8px;
+    display: inline-block;
+    height: 36px;
+    width: 36px;
+    margin-right: 10px;
+    background-image: url(../../../assets/images/comm.png);
+    background-repeat: no-repeat;
+    background-size: 50px auto;
+    background-position: 0 -550px;
+}
+
+.like-detail-cost .dated-Refunds {
+    background-position: 0 -592px;
+}

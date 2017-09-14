@@ -16,12 +16,14 @@ class City extends Component {
     super(props)
     this.shouldComponentUpdate = PureRenderMixin.shouldComponentUpdate.bind(this)
     this.changeCity = this.changeCity.bind(this)
+    this.setAnimate = this.setAnimate.bind(this)
     this.state = {
       data: null
     }
   }
 
   componentDidMount () {
+    console.log('city')
     this.requestCity()
   }
 
@@ -42,10 +44,14 @@ class City extends Component {
     this.props.history.push('/')
   }
 
+  setAnimate (cls) {
+    this.props.setRouterAnimate(cls)
+  }
+
   render () {
     return (
       <div>
-        <CityHeader />
+        <CityHeader setAnimate={this.setAnimate}/>
         <SearchCity />
         <CityPosition setCity={this.changeCity}/>
         {

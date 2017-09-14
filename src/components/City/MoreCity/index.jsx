@@ -19,7 +19,7 @@ class MoreCity extends Component {
           this.props.nav.map((item, index) => 
             <CityNav nav={item} key={index} clickHandle={this.props.setCity}/>
           )
-        }        
+        }
       </div>
     )
   }
