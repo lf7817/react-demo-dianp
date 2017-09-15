@@ -2,14 +2,14 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import './style.css'
 
-const Cost = () => (
+const Cost = ({ id, cPrice, oPrice }) => (
   <div className="like-detail-cost">
     <div className="bug-wrap">
       <div>
-        <span className="n-price"><i>￥</i>23.9</span>
-        <span className="o-price"><i>￥</i>42</span>
+        <span className="n-price"><i>￥</i>{cPrice}</span>
+        <span className="o-price"><i>￥</i>{oPrice}</span>
       </div>
-      <Link to="/" className="bug">立即购买</Link>
+      <Link to={`/submit/${id}/${cPrice}`} className="bug">立即购买</Link>
     </div>
     <ul className="advantage">
       <li>

@@ -10,25 +10,26 @@ class ShopInfo extends Component {
   }
 
   render () {
+    const { branchName, shopName, stars, distance, tel, addr } = this.props
     return (
       <div className="like-detail-shop">
-        <h3 className="top">适用商户（1）</h3>
+        <h3 className="top">适用商户</h3>
         <div className="middle">
           <div className="left">
-            <h3>馋猫食堂(义乌青年广场店)</h3>
+            <h3>{`${shopName}(${branchName})`}</h3>
             <div>
-              <Stars className="ad" num={4.5}/>
-              <span>>100km</span>
+              <Stars className="ad" stars={stars}/>
+              <span>{distance}</span>
             </div>
           </div>
           <div className="right">
-            <a href="tel:110">
+            <a href={`tel:${tel}`}>
               <i className="mobile"></i>
             </a>
           </div>
         </div>
         <p className="bottom">
-          <span><i></i>天元东路388号义乌青年青年广场三楼美食城3061室</span>
+          <span><i></i>{addr}</span>
       </p>
       </div>
     )

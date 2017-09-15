@@ -1,8 +1,8 @@
 import React from 'react'
 import './style.css'
 
-const Stars = ({num, className}) => {
-  const percent = (num * 100 / 5) + '%'
+const Stars = ({stars, className}) => {
+  const percent = (stars * 100 / 5) + '%'
   return (
     <div className={'star ' + className}>
       <span className="star-background"></span>

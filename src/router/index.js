@@ -50,7 +50,7 @@ class RouterMap extends Component {
               <Route exact path="/" component={AsyncHome} />
               <Route path="/city" component={AsyncCity} />
               <Route path="/headLine" component={AsyncHeadLine} />
-              <Route path="/likedetail/:shopId" component={AsyncLikeDetail} />
+              <Route path="/likedetail/:groupId" component={AsyncLikeDetail} />
             </Switch>
           </ScrollToTop>
         {/*</RouterAnimate>*/}

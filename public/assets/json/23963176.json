@@ -1,5 +1,9 @@
 {
+  "id": "23963176",
+  "o_price": "42",
+  "c_price": "23.9",
   "shopName": "馋猫食堂",
+  "stars": "4.5",
   "subName": "仅售23.9元！最高价值42元的套餐饭系列，建议单人使用，提供免费WiFi。",
   "imgList": [
     "https://lf7817.github.io/react-demo-dianp/public/assets/images/detail1.jpg",
@@ -9,7 +13,7 @@
   ],
   "address": "天元东路388号义乌青年青年广场三楼美食城3061室",
   "shopId": "68233715",
-  "distance": "100km",
+  "distance": ">100km",
   "phoneNo": "02552070807",
   "businessHours": "周一至周日 10:00-22:00",
   "branchName": "义乌青年广场店",

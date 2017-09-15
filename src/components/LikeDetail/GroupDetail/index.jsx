@@ -2,39 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import './style.css'
 
-const groupBuyDetail = [{
-  title: '定食3选1(不可重复选)',
-  list: [{
-    name: '猪排咖喱饭',
-    num: 1,
-    price: '28元'
-  },{
-    name: '香川鳕鱼饭',
-    num: 1,
-    price: '22元'
-  },{
-    name: '王子炒饭',
-    num: 1,
-    price: '26元'
-  }]
-},{
-  title: '小食3选1(不可重复选)',
-  list: [{
-    name: '日式土豆丸',
-    num: 1,
-    price: '9元'
-  },{
-    name: '微笑土豆饼',
-    num: 1,
-    price: '10元'
-  },{
-    name: '中华海草',
-    num: 1,
-    price: '7元'
-  }]
-}]
-
-const GroupList = ({cls, data}) => (
+const GroupList = ({cls, data, cPrice, oPrice}) => (
   <table className={cls}>
     {
       data.map((item, index) => (
@@ -48,7 +16,7 @@ const GroupList = ({cls, data}) => (
         </tbody>
       ))
     }
-    <FootItem />
+    <FootItem cPrice={cPrice} oPrice={oPrice}/>
   </table>
 )
 
@@ -66,27 +34,27 @@ const TdItem = ({td}) => (
   </tr>
 )
 
-const FootItem = () => (
+const FootItem = ({oPrice, cPrice}) => (
   <tbody className="foot">
     <tr>
       <td></td>
       <td className="high-price">最高价值</td>
-      <td className="high-price">42元</td>
+      <td className="high-price">{oPrice}元</td>
     </tr>
     <tr>
       <td style={{color: '#999'}}>免费提供餐巾纸</td>
       <td className="tuan-price"><strong>团购价</strong></td>
-      <td className="tuan-price"><strong>23.9元</strong></td>
+      <td className="tuan-price"><strong>{cPrice}元</strong></td>
     </tr>
   </tbody>
 )
 
-const GroupDetail = (props) => {
+const GroupDetail = ({groupBuyDetail, oPrice, cPrice, id}) => {
   return (
     <div className="like-detail-group">
       <h3 className="title">团购详情<i></i></h3>
-      <GroupList cls="tab" data={groupBuyDetail}/>
-      <Link to='/' className='btn'>立即购买</Link>
+      <GroupList cls="tab" data={groupBuyDetail} oPrice={oPrice} cPrice={cPrice}/>
+      <Link to={`/submit/${id}/${cPrice}`} className='btn'>立即购买</Link>
     </div>
   )
 }
