@@ -1,0 +1,58 @@
+{
+  "shopName": "馋猫食堂",
+  "subName": "仅售23.9元！最高价值42元的套餐饭系列，建议单人使用，提供免费WiFi。",
+  "imgList": [
+    "https://lf7817.github.io/react-demo-dianp/public/assets/images/detail1.jpg",
+    "https://lf7817.github.io/react-demo-dianp/public/assets/images/detail2.jpg",
+    "https://lf7817.github.io/react-demo-dianp/public/assets/images/detail3.jpg",
+    "https://lf7817.github.io/react-demo-dianp/public/assets/images/detail4.jpg"
+  ],
+  "address": "天元东路388号义乌青年青年广场三楼美食城3061室",
+  "shopId": "68233715",
+  "distance": "100km",
+  "phoneNo": "02552070807",
+  "businessHours": "周一至周日 10:00-22:00",
+  "branchName": "义乌青年广场店",
+  "groupBuyDetail": [
+    {
+      "title": "定食3选1(不可重复选)",
+      "list": [
+        {
+          "name": "猪排咖喱饭",
+          "num": 1,
+          "price": "28元"
+        },
+        {
+          "name": "香川鳕鱼饭",
+          "num": 1,
+          "price": "22元"
+        },
+        {
+          "name": "王子炒饭",
+          "num": 1,
+          "price": "26元"
+        }
+      ]
+    },
+    {
+      "title": "小食3选1(不可重复选)",
+      "list": [
+        {
+          "name": "日式土豆丸",
+          "num": 1,
+          "price": "9元"
+        },
+        {
+          "name": "微笑土豆饼",
+          "num": 1,
+          "price": "10元"
+        },
+        {
+          "name": "中华海草",
+          "num": 1,
+          "price": "7元"
+        }
+      ]
+    }
+  ]
+}
