@@ -22,14 +22,17 @@
 }
 .home-header-left .city-name span {
     position: relative;
-    top: 4px;
+    top: 3px; /*no*/
     display: inline-block;
-    width: 100px;
+    width: 150px;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
 }
 .home-header-left .city-name i {
+    position: relative;
+    top: 4px;
+    margin-left: 10px;
     font-size: 36px;
 }
 

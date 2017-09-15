@@ -3,7 +3,6 @@ import './style.css'
 
 const Stars = ({num, className}) => {
   const percent = (num * 100 / 5) + '%'
-  console.log(percent)
   return (
     <div className={'star ' + className}>
       <span className="star-background"></span>

@@ -1,0 +1,82 @@
+.like-detail-group {
+    background: #fff;
+}
+
+.like-detail-group .title {
+    height: 80px;
+    line-height: 80px;
+    font-weight: 400;
+    font-size: 28px;
+    text-indent: 20px;
+    color: #333;
+    border-bottom: 1px solid #eee;
+}
+.like-detail-group .title i {
+    position: relative;
+    top: 4px;
+    display: inline-block;
+    margin-left: 10px;
+    width: 28px;
+    height: 36px;
+    background: url(../../../assets/images/icon-comm.png) center -66px no-repeat;
+    background-size: 28px auto;
+}
+.like-detail-group .tab {
+    width: 710px;
+    margin-left: 20px;
+    border: 0;
+    border-collapse:collapse;
+}
+.like-detail-group .tab td, .like-detail-group .tab th {
+    line-height: 84px;
+    border-bottom: 1px solid #eee;
+    /*text-indent: 20px;*/
+    font-size: 28px;
+    color: #333;
+}
+
+.like-detail-group .tab th {
+    font-weight: 400;
+    color: #999;
+
+}
+
+.like-detail-group .tab td:nth-child(1) {
+    width: 60%;
+    text-indent: 20px;
+}
+.like-detail-group .tab td:nth-child(2) {
+    width: 20%;
+    text-align: right;
+}
+
+.like-detail-group .tab td:nth-child(3) {
+    width: 20%;
+    text-align: center;
+}
+.like-detail-group .tab .foot td {
+    border: none;
+    line-height: 60px;
+}
+.like-detail-group .tab .high-price {
+    text-decoration: line-through;
+    color: #999;
+}
+.like-detail-group .tab .tuan-price {
+    color: #f63;
+}
+.like-detail-group .tab .tuan-price:last-child {
+    font-size: 36px;
+}
+.like-detail-group .btn {
+    display: inline-block;
+    margin: 20px;
+    width: 710px;
+    height: 80px;
+    line-height: 80px;
+    border-radius: 10px;
+    background-color: #f63;
+    color: #fff;
+    font-size: 32px;
+    text-align: center;
+}

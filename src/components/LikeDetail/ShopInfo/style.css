@@ -1,5 +1,6 @@
 .like-detail-shop {
     background-color: #fff;
+    margin-bottom: 20px;
 }
 
 .like-detail-shop .top {
@@ -25,7 +26,7 @@
 }
 
 .like-detail-shop .middle .left h3 {
-    margin-top: 20px;
+    margin-top: 30px;
     margin-bottom: 20px;
     font-weight: 700;
     font-size: 36px;
@@ -60,4 +61,22 @@
     background-repeat: no-repeat;
     background-size: 80px auto;
     background-position: center 0;
+}
+
+.like-detail-shop .bottom {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 88px;
+    text-indent: 20px;
+    font-size: 28px;
+    color: #333;
+}
+.like-detail-shop .bottom i {
+    display: inline-block;
+    margin-right: 10px;
+    width: 28px;
+    height: 28px;
+    background: url(../../../assets/images/icon-comm.png) 0 -110px no-repeat;
+    background-size: 28px auto;
 }

@@ -14,8 +14,7 @@ class HomeHeader extends Component {
       <div className="home-header">
         <div className="home-header-left">
           <Link to="/city" className="city-name" onClick={() => this.props.setAnimate('left')}>
-            <span>{this.props.cityName}</span>
-            <i className="icon-angle-down"></i>
+            <span>{this.props.cityName}<i className="icon-angle-down"></i></span>
           </Link>
         </div>
 

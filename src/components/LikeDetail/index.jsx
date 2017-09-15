@@ -4,6 +4,7 @@ import Header from './Header'
 import Image from './Image'
 import Cost from './Cost'
 import ShopInfo from './ShopInfo'
+import GroupDetail from './GroupDetail'
 
 
 class LikeDetail extends Component {
@@ -19,6 +20,7 @@ class LikeDetail extends Component {
         <Image />
         <Cost />
         <ShopInfo />
+        <GroupDetail />
       </div>
     )
   }

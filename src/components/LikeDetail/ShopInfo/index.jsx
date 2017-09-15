@@ -27,6 +27,9 @@ class ShopInfo extends Component {
             </a>
           </div>
         </div>
+        <p className="bottom">
+          <span><i></i>天元东路388号义乌青年青年广场三楼美食城3061室</span>
+      </p>
       </div>
     )
   }
